@@ -16,5 +16,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - run: cd .. && mkdir templates && cd templates
+      - run: apt-get install cookiecutter
+      - run: cookiecutter ../template-expressjs/ --no-input --config-file ../template-expressjs/cookiecutter-ci.yaml
+      - run: cd rpe-expressjs-template
       - run: yarn --version
       - run: yarn cichecks

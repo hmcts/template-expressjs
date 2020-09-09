@@ -1,0 +1,8 @@
+nodejs:
+  applicationPort: {{ cookiecutter.http_port }}
+  aadIdentityName: rpe
+{% raw %}
+  ingressHost: {{ cookiecutter.app_full_name }}.{{ .Values.global.environment }}.platform.hmcts.net
+{% endraw %}
+  image: 'hmctspublic.azurecr.io/{{ cookiecutter.product }}/{{ cookiecutter.component_id }}:latest'
+  environment:
