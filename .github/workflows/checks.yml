@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 12
       - run: pwd && ls
-      - run: cd ..
+      - run: cd ../
       - run: pwd && ls
       - run: mkdir templates && cd templates
       - run: pwd && ls
