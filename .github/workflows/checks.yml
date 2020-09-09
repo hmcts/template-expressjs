@@ -16,7 +16,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: cd .. && mkdir templates && cd templates
+      - run: pwd && ls
+      - run: cd ..
+      - run: pwd && ls
+      - run: mkdir templates && cd templates
       - run: pwd && ls
       - run: sudo apt-get install cookiecutter
       - run: cookiecutter ../template-expressjs/ --no-input --config-file ../template-expressjs/cookiecutter-ci.yaml
