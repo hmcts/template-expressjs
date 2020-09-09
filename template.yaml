@@ -33,5 +33,5 @@ spec:
       http_port:
         title: Port
         type: integer
-        default: 8080
+        default: 3100
         description: The port to run the app on
