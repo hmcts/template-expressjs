@@ -19,7 +19,6 @@ jobs:
       - run: sudo apt-get install cookiecutter
       - run: cookiecutter ../template-expressjs/ --no-input --config-file ../template-expressjs/cookiecutter-ci.yaml
       - run: yarn --version
-      - run: yarn cichecks
       - name: Run CI checks
         working-directory: ./expressjs-template
         run: yarn cichecks
