@@ -1,7 +1,6 @@
 version: '2'
 
 services:
-  # TODO: change this name to match the name of your app
   {{ cookiecutter.component_id }}:
     build:
       context: .
