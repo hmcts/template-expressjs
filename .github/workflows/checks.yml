@@ -18,6 +18,8 @@ jobs:
           node-version: 12
       - run: sudo apt-get install cookiecutter
       - run: cookiecutter ../template-expressjs/ --no-input --config-file ../template-expressjs/cookiecutter-ci.yaml
-      - run: cd expressjs-template
       - run: yarn --version
       - run: yarn cichecks
+      - name: Run CI checks
+        working-directory: ./expressjs-template
+        run: yarn cichecks
