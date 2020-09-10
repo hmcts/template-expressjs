@@ -1,5 +1,5 @@
 {
-  "name": "{{ cookiecutter.app_full_name }}",
+  "name": "aaa",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -10,7 +10,7 @@
     "start:dev": "nodemon --config nodemon.json",
     "lint": "sass-lint -v -q && eslint . --ext .js,.jsx,.ts,.tsx",
     "build": "yarn webpack --config webpack.config.js",
-    "build:prod": " yarn webpack --mode production --config webpack.config.js",
+    "build:prod": "NODE_ENV=production yarn webpack --mode production --config webpack.config.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:routes": "jest -c jest.routes.config.js",
@@ -71,7 +71,7 @@
     "css-loader": "^3.4.2",
     "debug": "^4.1.1",
     "eslint": "^6.8.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^4.3.0",
     "jest": "^25.1.0",
     "mini-css-extract-plugin": "^0.9.0",
     "nock": "^11.7.2",
