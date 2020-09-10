@@ -1,4 +1,4 @@
-{{ cookiecutter.app_full_name }}
+# {{ cookiecutter.app_full_name }}
 
 {{ cookiecutter.description }}
 
