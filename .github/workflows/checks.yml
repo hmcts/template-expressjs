@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: sudo apt-get install cookiecutter
+      - run: sudo apt-get update && sudo apt-get install cookiecutter
       - run: cookiecutter ../template-expressjs/ --no-input --config-file ../template-expressjs/cookiecutter-ci.yaml
       - run: yarn --version
       - name: Run CI checks
