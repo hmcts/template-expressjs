@@ -6,6 +6,6 @@ home: https://github.com/hmcts/{{ cookiecutter.app_full_name }}
 version: 0.0.1
 dependencies:
   - name: nodejs
-    version: 2.3.3
+    version: 2.3.4
     repository: '@hmctspublic'
 
