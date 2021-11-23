@@ -5,7 +5,7 @@ metadata:
   title: ExpressJS
   description: Standard Express.js (Node.Js) microservice with recommended configuration for HMCTS
   tags:
-    - java
+    - nodejs
 spec:
   owner: dts_platform_operations
   type: service
