@@ -97,6 +97,7 @@ set up in this template, at the application level. However, you need to make sur
 is present in every HTML form that requires it. For that purpose you can use the `csrfProtection` macro,
 included in this template app. Your njk file would look like this:
 
+{% raw -%}
 ```
 {% from "macros/csrf.njk" import csrfProtection %}
 ...
@@ -107,6 +108,7 @@ included in this template app. Your njk file would look like this:
 </form>
 ...
 ```
+{% endraw -%}
 
 #### Helmet
 
