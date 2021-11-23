@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  {{ cookiecutter.component_id }}:
+  ${{ values.component_id }}:
     build:
       context: .
       args:
@@ -10,4 +10,4 @@ services:
         - no_proxy
     ports:
       # TODO: change this mapping to map the port your application listens on
-      - {{ cookiecutter.http_port }}:{{ cookiecutter.http_port }}
+      - ${{ values.http_port }}:${{ values.http_port }}

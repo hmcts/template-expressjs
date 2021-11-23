@@ -1,6 +1,6 @@
-# {{ cookiecutter.app_full_name }}
+# ${{ values.app_full_name }}
 
-{{ cookiecutter.description }}
+${{ values.description }}
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ Run:
 $ yarn start
 ```
 
-The applications's home page will be available at https://localhost:{{ cookiecutter.http_port }}
+The applications's home page will be available at https://localhost:${{ values.http_port }}
 
 ### Running with Docker
 
@@ -48,9 +48,9 @@ Run the application by executing the following command:
 ```
 
 This will start the frontend container exposing the application's port
-(set to `{{ cookiecutter.http_port }}` in this template app).
+(set to `${{ values.http_port }}` in this template app).
 
-In order to test if the application is up, you can visit https://localhost:{{ cookiecutter.http_port }} in your browser.
+In order to test if the application is up, you can visit https://localhost:${{ values.http_port }} in your browser.
 You should get a very basic home page (no styles, etc.).
 
 ## Developing
@@ -134,7 +134,7 @@ Make sure you have those values set correctly for your application.
 
 ### Healthcheck
 
-The application exposes a health endpoint (https://localhost:{{ cookiecutter.http_port }}/health), created with the use of
+The application exposes a health endpoint (https://localhost:${{ values.http_port }}/health), created with the use of
 [Nodejs Healthcheck](https://github.com/hmcts/nodejs-healthcheck) library. This endpoint is defined
 in [health.ts](src/main/routes/health.ts) file. Make sure you adjust it correctly in your application.
 In particular, remember to replace the sample check with checks specific to your frontend app,
