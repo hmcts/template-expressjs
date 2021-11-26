@@ -67,8 +67,6 @@ spec:
       action: fetch:template
       input:
         url: ./skeleton
-        copyWithoutRender:
-          - '*.njk'
         values:
           product: '${{ parameters.product }}'
           component: '${{ parameters.component }}'
