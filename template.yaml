@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: template-expressjs2
-  title: ExpressJS2
-  description: Standard Express.js2 (Node.Js) microservice with recommended configuration for HMCTS
+  name: template-expressjs
+  title: ExpressJS
+  description: Standard Express.js (Node.Js) microservice with recommended configuration for HMCTS
   tags:
     - nodejs
 spec:
