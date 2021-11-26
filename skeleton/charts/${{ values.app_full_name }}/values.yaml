@@ -1,0 +1,6 @@
+nodejs:
+  applicationPort: ${{ values.http_port }}
+  aadIdentityName: rpe
+  ingressHost: ${{ values.app_full_name }}.{{ '{{' }} .Values.global.environment {{ '}}' }}.platform.hmcts.net
+  image: 'hmctspublic.azurecr.io/${{ values.product }}/${{ values.component_id }}:latest'
+  environment:

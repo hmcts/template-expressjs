@@ -8,8 +8,8 @@ pipelineTriggers([cron('H 05 * * *')])
 @Library("Infrastructure")
 
 def type = "nodejs"
-def product = "{{ cookiecutter.product }}"
-def component = "{{ cookiecutter.component_id }}"
+def product = "${{ values.product }}"
+def component = "${{ values.component_id }}"
 
 withNightlyPipeline(type, product, component) {
 

@@ -1,5 +1,5 @@
 {
-  "name": "{{ cookiecutter.app_full_name }}",
+  "name": "${{ values.app_full_name }}",
   "version": "0.0.1",
   "private": true,
   "engines": {

@@ -3,8 +3,8 @@
 @Library("Infrastructure")
 
 def type = "nodejs"
-def product = "{{ cookiecutter.product }}"
-def component = "{{ cookiecutter.component_id }}"
+def product = "${{ values.product }}"
+def component = "${{ values.component_id }}"
 
 def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
 

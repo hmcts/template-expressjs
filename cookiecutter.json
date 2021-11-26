@@ -1,9 +1,0 @@
-{
-  "product": "",
-  "component_id": "",
-  "app_full_name": "{{ cookiecutter.product }}-{{ cookiecutter.component_id }}",
-  "description": "Product description for {{ cookiecutter.app_full_name }}",
-  "http_port": 3100,
-  "owner": "",
-  "storePath" : ""
-}
