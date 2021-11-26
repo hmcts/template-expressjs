@@ -1,3 +1,5 @@
+{%- raw -%}
 {% macro csrfProtection(token) %}
   <input type="hidden" name="_csrf" value="{{ token }}">
 {% endmacro %}
+{% endraw %}
