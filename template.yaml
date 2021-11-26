@@ -68,7 +68,7 @@ spec:
       input:
         url: ./skeleton
         copyWithoutRender:
-          - src/main/views/*.njk
+          - '*.njk'
         values:
           product: '${{ parameters.product }}'
           component: '${{ parameters.component }}'
