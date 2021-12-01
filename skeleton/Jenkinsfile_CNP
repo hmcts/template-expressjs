@@ -9,8 +9,6 @@ def component = "${{ values.component_id }}"
 def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
 
 withPipeline(type, product, component) {
-  disableLegacyDeployment()
-
   after('build') {
     yarnBuilder.yarn('build')
   }
