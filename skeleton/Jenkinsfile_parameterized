@@ -1,0 +1,19 @@
+#!groovy
+
+@Library("Infrastructure")
+
+def type = "nodejs"
+def product = "${{ values.product }}"
+def component = "${{ values.component }}"
+
+// docs:
+// 1. https://github.com/hmcts/cnp-jenkins-library
+// 2. https://hmcts.github.io/ways-of-working/common-pipeline/common-pipeline.html#common-pipeline
+
+def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
+
+withPipeline(type, product, component) {
+  after('build') {
+    yarnBuilder.yarn('build')
+  }
+}
