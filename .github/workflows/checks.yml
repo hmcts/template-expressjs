@@ -15,10 +15,9 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
-      - run: sudo apt-get update && sudo apt-get install cookiecutter
-      - run: cookiecutter ../template-expressjs/ --no-input --config-file ../template-expressjs/cookiecutter-ci.yaml
+          node-version: 16
       - run: yarn --version
-      - name: Run CI checks
-        working-directory: ./expressjs-template
-        run: yarn cichecks
+# TODO https://github.com/backstage/backstage/issues/6568
+#      - name: Run CI checks
+#        working-directory: ./expressjs-template
+#        run: yarn cichecks
