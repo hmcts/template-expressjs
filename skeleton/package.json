@@ -1,5 +1,5 @@
 {
-  "name": "${{ values.app_full_name }}",
+  "name": "TODO",
   "version": "0.0.1",
   "private": true,
   "engines": {
