@@ -9,8 +9,10 @@ pipelineTriggers([cron('H 05 * * *')])
 
 def type = "nodejs"
 def product = "${{ values.product }}"
-def component = "${{ values.component_id }}"
+def component = "${{ values.component }}"
 
 withNightlyPipeline(type, product, component) {
-
+  after('build') {
+    yarnBuilder.yarn('build')
+  }
 }

@@ -6,6 +6,12 @@ RUN yarn install --production \
 
 # ---- Build image ----
 FROM base as build
+
+USER root
+# Remove when switched to dart-sass
+RUN apk add --update --no-cache python3
+USER hmcts
+
 RUN yarn install && yarn build:prod
 
 # ---- Runtime image ----
