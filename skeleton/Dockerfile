@@ -12,7 +12,7 @@ USER root
 RUN apk add --update --no-cache python3
 USER hmcts
 
-RUN yarn install && yarn build:prod
+RUN PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true yarn install && yarn build:prod
 
 # ---- Runtime image ----
 FROM base as runtime
