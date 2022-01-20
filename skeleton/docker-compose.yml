@@ -9,4 +9,4 @@ services:
         - https_proxy
         - no_proxy
     ports:
-      - "${{ values.http_port }}:${{ values.http_port }}"
+      - '${{ values.http_port }}:${{ values.http_port }}'

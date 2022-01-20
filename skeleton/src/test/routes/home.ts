@@ -9,7 +9,7 @@ describe('Home page', () => {
     test('should return sample home page', async () => {
       await request(app)
         .get('/')
-        .expect((res) => expect(res.status).to.equal(200));
+        .expect(res => expect(res.status).to.equal(200));
     });
   });
 });
