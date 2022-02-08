@@ -1,7 +1,7 @@
 nodejs:
   applicationPort: ${{ values.http_port }}
   aadIdentityName: ${{ values.product }}
-  ingressHost: ${{ values.app_full_name }}.{{ '{{' }} .Values.global.environment {{ '}}' }}.platform.hmcts.net
+  ingressHost: ${{ values.app_full_name }}.{{ .Values.global.environment }}.platform.hmcts.net
   image: 'hmctspublic.azurecr.io/${{ values.product }}/${{ values.component }}:latest'
   #  Uncomment once the vault containing the app insights key has been set up
   #  keyVaults:
