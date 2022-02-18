@@ -3,7 +3,7 @@ import { fail } from 'assert';
 import axios, { AxiosResponse } from 'axios';
 import { expect } from 'chai';
 
-const testUrl = process.env.TEST_URL || 'http://localhost:8080';
+const testUrl = process.env.TEST_URL || 'http://localhost:${{ values.http_port }}';
 
 describe('Smoke Test', () => {
   describe('Home page loads', () => {
