@@ -61,7 +61,7 @@
     "@babel/preset-env": "^7.16.8",
     "@types/chai-as-promised": "^7.1.4",
     "@types/jest": "^27.4.0",
-    "@types/mini-css-extract-plugin": "^2.4.0",
+    "@types/mini-css-extract-plugin": "^2.5.1",
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/eslint-plugin-tslint": "^5.10.0",
