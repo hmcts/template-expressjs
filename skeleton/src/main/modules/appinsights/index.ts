@@ -6,7 +6,6 @@ export class AppInsights {
   enable(): void {
     if (config.get('appInsights.instrumentationKey')) {
       appInsights.setup(config.get('appInsights.instrumentationKey')).setSendLiveMetrics(true).start();
-
       appInsights.defaultClient.context.tags[appInsights.defaultClient.context.keys.cloudRole] =
         '${{ values.app_full_name }}';
       appInsights.defaultClient.trackTrace({ message: 'App insights activated' });
