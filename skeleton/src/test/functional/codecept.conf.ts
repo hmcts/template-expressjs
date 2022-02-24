@@ -7,7 +7,7 @@ setHeadlessWhen(testConfig.TestHeadlessBrowser);
 export const config: CodeceptJS.Config = {
   name: 'functional',
   gherkin: testConfig.Gherkin,
-  output: '../../../functional-output/functional/reports',
+  output: '../../../functional-output/reports/DefaultPageTemplate-result.xml',
   helpers: testConfig.helpers,
   plugins: {
     allure: {
