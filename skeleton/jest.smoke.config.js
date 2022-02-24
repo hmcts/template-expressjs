@@ -11,7 +11,7 @@ module.exports = {
       "default",
       ["./node_modules/jest-html-reporter", {
         "pageTitle": "Smoke Test Report",
-        "outputPath": "./smoke-output/reports/test-report.html",
+        "outputPath": "./smoke-output/reports/DefaultPageTemplate-result.xml",
         "includeFailureMsg": true
       }]
     ]
