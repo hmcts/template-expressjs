@@ -8,11 +8,11 @@ module.exports = {
     },
     moduleFileExtensions: ['ts', 'js', 'json'],
     "reporters": [
-      "default",
-      ["./node_modules/jest-html-reporter", {
-        "pageTitle": "Smoke Test Report",
-        "outputPath": "./smoke-output/reports/test-report.html",
-        "includeFailureMsg": true
-      }]
+      "default", [
+        "jest-junit", {
+          "outputDirectory": "./smoke-output/reports/",
+          "outputName": "junit-result.xml",
+        }
+      ]
     ]
   }; 
