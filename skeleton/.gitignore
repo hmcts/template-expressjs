@@ -25,6 +25,7 @@ dist/
 public/
 
 # yarn v2
+.yarn/*
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
@@ -33,5 +34,4 @@ public/
 !.pnp.cjs
 !.yarn/unplugged
 !.yarn/plugins
-!.yarn/releases
 !.yarn/cache
