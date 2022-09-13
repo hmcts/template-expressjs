@@ -3585,20 +3585,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin-tslint@npm:5.37.0":
-  version: 5.37.0
-  resolution: "@typescript-eslint/eslint-plugin-tslint@npm:5.37.0"
-  dependencies:
-    "@typescript-eslint/utils": 5.37.0
-    lodash: ^4.17.21
-  peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-    tslint: ^5.0.0 || ^6.0.0
-    typescript: "*"
-  checksum: 2582d201d920d86aaf097b0eee30da9f9ce8b840b34de6467495aedcc44f8e8b57c70e66fd8c2a0d77469d2c4ab4dfb8f4ca3f44ebb87592537bb17de052ddb4
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/eslint-plugin@npm:5.37.0":
   version: 5.37.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.37.0"
@@ -4005,7 +3991,6 @@ __metadata:
     "@types/serve-favicon": 2.5.3
     "@types/supertest": 2.0.12
     "@typescript-eslint/eslint-plugin": 5.37.0
-    "@typescript-eslint/eslint-plugin-tslint": 5.37.0
     "@typescript-eslint/parser": 5.37.0
     applicationinsights: 2.3.4
     axios: 0.27.2
