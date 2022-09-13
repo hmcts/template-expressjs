@@ -16,7 +16,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 16
-      - run: yarn --version
+      - run: corepack enable && yarn --version
+        working-directory: ./skeleton
 # TODO https://github.com/backstage/backstage/issues/6568
 #      - name: Run CI checks
 #        working-directory: ./expressjs-template
