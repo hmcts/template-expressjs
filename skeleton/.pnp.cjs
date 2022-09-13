@@ -83,7 +83,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.18.1"],\
             ["express-nunjucks", "npm:2.2.5"],\
             ["glob", "npm:8.0.3"],\
-            ["govuk-frontend", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:4.3.1"],\
+            ["govuk-frontend", "npm:4.3.1"],\
             ["helmet", "npm:6.0.0"],\
             ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.0"],\
             ["husky", "npm:8.0.1"],\
@@ -6479,7 +6479,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.18.1"],\
             ["express-nunjucks", "npm:2.2.5"],\
             ["glob", "npm:8.0.3"],\
-            ["govuk-frontend", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:4.3.1"],\
+            ["govuk-frontend", "npm:4.3.1"],\
             ["helmet", "npm:6.0.0"],\
             ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.0"],\
             ["husky", "npm:8.0.1"],\
@@ -11283,20 +11283,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/govuk-frontend-npm-4.3.1-2ce4f02354-ea2d658f66.zip/node_modules/govuk-frontend/",\
           "packageDependencies": [\
             ["govuk-frontend", "npm:4.3.1"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:4.3.1", {\
-          "packageLocation": "./.yarn/__virtual__/govuk-frontend-virtual-48434e396e/0/cache/govuk-frontend-npm-4.3.1-2ce4f02354-ea2d658f66.zip/node_modules/govuk-frontend/",\
-          "packageDependencies": [\
-            ["govuk-frontend", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:4.3.1"],\
-            ["@types/sass", null],\
-            ["sass", "npm:1.54.9"],\
-            ["sass-loader", "virtual:48434e396e7d206bb6a508300e07c5d928197d1d5275c54c53a1bf509d6aa4169480c596340545fc7d0c90b4e8c624ee13ce12c17d3fea7985fa3edafec4eaaa#npm:13.0.2"]\
-          ],\
-          "packagePeers": [\
-            "@types/sass",\
-            "sass"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16150,37 +16136,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.54.9"],\
             ["sass-embedded", null],\
             ["webpack", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.74.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/fibers",\
-            "@types/node-sass",\
-            "@types/sass-embedded",\
-            "@types/sass",\
-            "@types/webpack",\
-            "fibers",\
-            "node-sass",\
-            "sass-embedded",\
-            "sass",\
-            "webpack"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:48434e396e7d206bb6a508300e07c5d928197d1d5275c54c53a1bf509d6aa4169480c596340545fc7d0c90b4e8c624ee13ce12c17d3fea7985fa3edafec4eaaa#npm:13.0.2", {\
-          "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-f5a2d70f7b/0/cache/sass-loader-npm-13.0.2-ca68afd73d-6306712cc7.zip/node_modules/sass-loader/",\
-          "packageDependencies": [\
-            ["sass-loader", "virtual:48434e396e7d206bb6a508300e07c5d928197d1d5275c54c53a1bf509d6aa4169480c596340545fc7d0c90b4e8c624ee13ce12c17d3fea7985fa3edafec4eaaa#npm:13.0.2"],\
-            ["@types/fibers", null],\
-            ["@types/node-sass", null],\
-            ["@types/sass", null],\
-            ["@types/sass-embedded", null],\
-            ["@types/webpack", null],\
-            ["fibers", null],\
-            ["klona", "npm:2.0.5"],\
-            ["neo-async", "npm:2.6.2"],\
-            ["node-sass", null],\
-            ["sass", "npm:1.54.9"],\
-            ["sass-embedded", null],\
-            ["webpack", null]\
           ],\
           "packagePeers": [\
             "@types/fibers",\

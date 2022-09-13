@@ -12277,7 +12277,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:*, sass-loader@npm:13.0.2":
+"sass-loader@npm:13.0.2":
   version: 13.0.2
   resolution: "sass-loader@npm:13.0.2"
   dependencies:
