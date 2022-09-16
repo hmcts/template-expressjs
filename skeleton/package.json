@@ -64,7 +64,7 @@
     "@babel/preset-env": "7.19.0",
     "@codeceptjs/configure": "0.8.0",
     "@types/chai-as-promised": "7.1.5",
-    "@types/jest": "29.0.1",
+    "@types/jest": "29.0.3",
     "@types/mini-css-extract-plugin": "2.5.1",
     "@types/supertest": "2.0.12",
     "@typescript-eslint/eslint-plugin": "5.37.0",
