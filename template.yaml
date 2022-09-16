@@ -73,6 +73,8 @@ spec:
       action: fetch:template
       input:
         url: ./skeleton
+        copyWithoutTemplating:
+          - '.yarn/**'
         values:
           product: '${{ parameters.product }}'
           component: '${{ parameters.component }}'
@@ -88,6 +90,9 @@ spec:
       action: publish:github
       input:
         allowedHosts: ['github.com']
+        allowedOwners:
+          - hmcts
+          - hmcts-test
         repoUrl: ${{ parameters.repoUrl }}
         access: ${{ parameters.github_admin_team }}
         requireCodeOwnerReviews: true
