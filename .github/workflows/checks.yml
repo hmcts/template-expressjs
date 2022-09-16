@@ -18,7 +18,9 @@ jobs:
           node-version: 16
       - run: corepack enable && yarn --version
         working-directory: ./skeleton
-# TODO https://github.com/backstage/backstage/issues/13668
-#      - name: Run CI checks
-#        working-directory: ./expressjs-template
-#        run: yarn cichecks
+      # TODO https://github.com/backstage/backstage/issues/13668
+      # run templating over this repo to make sure all templates are valid
+      # we can then switch back to yarn cichecks as a11y tests will work again
+      - name: Run CI checks
+        working-directory: ./skeleton
+        run: yarn build && yarn rebuild puppeteer && yarn lint && yarn test && yarn test:routes
