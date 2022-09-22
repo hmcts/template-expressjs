@@ -23,6 +23,10 @@ npm-debug.log.*
 .settings/
 dist/
 public/
+src/main/views/govuk
+coverage/
+smoke-output/
+functional-output/
 
 # yarn v2
 .yarn/*
