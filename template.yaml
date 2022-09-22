@@ -75,6 +75,7 @@ spec:
         url: ./skeleton
         copyWithoutTemplating:
           - '.yarn/**'
+          - 'src/main/views/**'
         values:
           product: '${{ parameters.product }}'
           component: '${{ parameters.component }}'
