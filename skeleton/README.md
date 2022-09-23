@@ -98,7 +98,8 @@ Make sure all the paths in your application are covered by accessibility tests (
 set up in this template, at the application level. However, you need to make sure that CSRF token
 is present in every HTML form that requires it. For that purpose you can use the `csrfProtection` macro,
 included in this template app. Your njk file would look like this:
-{% raw %}
+{%- raw -%}
+
 ```
 {% from "macros/csrf.njk" import csrfProtection %}
 ...
@@ -109,7 +110,9 @@ included in this template app. Your njk file would look like this:
 </form>
 ...
 ```
-{% endraw %}
+
+{%- endraw -%}
+
 ### Healthcheck
 
 The application exposes a health endpoint (https://localhost:${{ values.http_port }}/health), created with the use of
