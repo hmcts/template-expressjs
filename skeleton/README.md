@@ -114,28 +114,6 @@ included in this template app. Your njk file would look like this:
 
 {% endraw %}
 
-#### Helmet
-
-This application uses [Helmet](https://helmetjs.github.io/), which adds various security-related HTTP headers
-to the responses. Apart from default Helmet functions, following headers are set:
-
-- [Referrer-Policy](https://helmetjs.github.io/docs/referrer-policy/)
-- [Content-Security-Policy](https://helmetjs.github.io/docs/csp/)
-
-There is a configuration section related with those headers, where you can specify:
-
-- `referrerPolicy` - value of the `Referrer-Policy` header
-
-Here's an example setup:
-
-```json
-    "security": {
-      "referrerPolicy": "origin",
-    }
-```
-
-Make sure you have those values set correctly for your application.
-
 ### Healthcheck
 
 The application exposes a health endpoint (https://localhost:${{ values.http_port }}/health), created with the use of
