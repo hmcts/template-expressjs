@@ -111,7 +111,7 @@ included in this template app. Your njk file would look like this:
 ...
 ```
 
-{%- endraw -%}
+{% endraw %}
 
 ### Healthcheck
 
