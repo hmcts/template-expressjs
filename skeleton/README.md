@@ -98,8 +98,7 @@ Make sure all the paths in your application are covered by accessibility tests (
 set up in this template, at the application level. However, you need to make sure that CSRF token
 is present in every HTML form that requires it. For that purpose you can use the `csrfProtection` macro,
 included in this template app. Your njk file would look like this:
-
-{% raw %}
+{%- raw -%}
 
 ```
 {% from "macros/csrf.njk" import csrfProtection %}
@@ -112,29 +111,7 @@ included in this template app. Your njk file would look like this:
 ...
 ```
 
-{% endraw %}
-
-#### Helmet
-
-This application uses [Helmet](https://helmetjs.github.io/), which adds various security-related HTTP headers
-to the responses. Apart from default Helmet functions, following headers are set:
-
-- [Referrer-Policy](https://helmetjs.github.io/docs/referrer-policy/)
-- [Content-Security-Policy](https://helmetjs.github.io/docs/csp/)
-
-There is a configuration section related with those headers, where you can specify:
-
-- `referrerPolicy` - value of the `Referrer-Policy` header
-
-Here's an example setup:
-
-```json
-    "security": {
-      "referrerPolicy": "origin",
-    }
-```
-
-Make sure you have those values set correctly for your application.
+{%- endraw -%}
 
 ### Healthcheck
 
