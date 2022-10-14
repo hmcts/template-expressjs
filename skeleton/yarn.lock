@@ -2540,7 +2540,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@codeceptjs/configure@npm:^0.10.0":
+"@codeceptjs/configure@npm:0.10.0":
   version: 0.10.0
   resolution: "@codeceptjs/configure@npm:0.10.0"
   dependencies:
@@ -4082,7 +4082,7 @@ __metadata:
     "@babel/core": 7.19.1
     "@babel/eslint-parser": 7.19.1
     "@babel/preset-env": 7.19.1
-    "@codeceptjs/configure": ^0.10.0
+    "@codeceptjs/configure": 0.10.0
     "@hmcts/info-provider": 1.0.0
     "@hmcts/nodejs-healthcheck": 1.7.3
     "@hmcts/nodejs-logging": 4.0.4
@@ -4113,7 +4113,7 @@ __metadata:
     chai: 4.3.6
     chai-as-promised: 7.1.1
     chokidar: 3.5.3
-    codeceptjs: ^3.3.6
+    codeceptjs: 3.3.6
     config: 3.3.8
     cookie-parser: 1.4.6
     copy-webpack-plugin: 9.1.0
@@ -5613,7 +5613,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codeceptjs@npm:^3.3.6":
+"codeceptjs@npm:3.3.6":
   version: 3.3.6
   resolution: "codeceptjs@npm:3.3.6"
   dependencies:
