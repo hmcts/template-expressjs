@@ -1,0 +1,21 @@
+#!groovy
+
+@Library("Infrastructure")
+
+def type = "nodejs"
+def product = "${{ values.product }}"
+def component = "${{ values.component }}"
+
+def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
+
+withPipeline(type, product, component) {
+  afterSuccess('checkout') {
+    echo 'Render Templates'
+    sh './scripts/render_templates.sh'
+  }
+  after('build') {
+    yarnBuilder.yarn('rebuild puppeteer')
+    yarnBuilder.yarn('build')
+  }
+
+}

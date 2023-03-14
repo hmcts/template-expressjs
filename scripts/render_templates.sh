@@ -38,7 +38,7 @@ if [ -z ${rendered_dir} ]; then
 fi
 
 cp -a ${templates_dir} ${rendered_dir}
-mv ${templates_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}charts/${tempVars[app_full_name]}"
+mv ${rendered_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}/charts/${tempVars[app_full_name]}"
 
 #while read -r file; do
 #  for i in "${!tempVars[@]}"; do
@@ -48,11 +48,11 @@ mv ${templates_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}ch
 #done <<< "$(grep -ri --files-with-matches --exclude-dir={skeleton,tests,.git} '${{ values.* }}' ${rendered_dir})"
 
 
-  for i in "${!tempVars[@]}"; do
-    while read -r file; do
-      if [[ ! ${file} == "" ]]; then
-        echo "${file}::$i::${tempVars[$i]}"
-        sed -i '' "s/\${{ values.$i }}/${tempVars[$i]}/g" "${file}"
-      fi
-    done <<< "$(grep -ri --files-with-matches --exclude-dir={skeleton,scripts,.git} "\${{ values.${i} }}" ${rendered_dir})"
-  done
+for i in "${!tempVars[@]}"; do
+  while read -r file; do
+    if [[ ! ${file} == "" ]]; then
+      echo "${file}::$i::${tempVars[$i]}"
+      sed -i '' "s/\${{ values.$i }}/${tempVars[$i]}/g" "${file}"
+    fi
+  done <<< "$(grep -ri --files-with-matches --exclude-dir={skeleton,scripts,.git} "\${{ values.${i} }}" ${rendered_dir})"
+done
