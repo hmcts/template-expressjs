@@ -5,8 +5,8 @@ cd "$(dirname "${0}")" || exit 1
 pwd
 ls
 # Substitute template params, render the templates and store in new dir
-templates_dir="../skeleton/"
-rendered_dir="../"
+templates_dir="../skeleton"
+rendered_dir=".."
 
 ###########
 product=rpe
@@ -40,7 +40,7 @@ if [ -z ${rendered_dir} ]; then
   rm -rf ${rendered_dir}
 fi
 
-cp -a ${templates_dir} ${rendered_dir} || exit 1
+cp -a ${templates_dir}/* ${rendered_dir}/ || exit 1
 
 mv ${rendered_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}/charts/${tempVars[app_full_name]}"
 
