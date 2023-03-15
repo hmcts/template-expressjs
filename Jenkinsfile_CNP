@@ -1,20 +1,20 @@
- #!groovy
+#!groovy
 
- @Library("Infrastructure")
+@Library("Infrastructure")
 
- def type = "nodejs"
- def product = "rpe"
- def component = "template-expressjs"
+def type = "nodejs"
+def product = "rpe"
+def component = "template-expressjs"
 
- def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
+def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
 
- withPipeline(type, product, component) {
-   afterSuccess('checkout') {
-     echo 'Render Templates'
-     sh './scripts/render_templates.sh'
-   }
-   after('build') {
-     yarnBuilder.yarn('rebuild puppeteer')
-     yarnBuilder.yarn('build')
-   }
- }
+withPipeline(type, product, component) {
+  afterSuccess('checkout') {
+    echo 'Render Templates'
+    sh './scripts/render_templates.sh'
+  }
+  after('build') {
+    yarnBuilder.yarn('rebuild puppeteer')
+    yarnBuilder.yarn('build')
+  }
+}
