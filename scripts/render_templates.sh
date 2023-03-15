@@ -44,9 +44,9 @@ if [ -z ${rendered_dir} ]; then
   rm -rf ${rendered_dir}
 fi
 
-cp -a ${templates_dir}/* ${templates_dir}/.* ${rendered_dir}/
+mv ${templates_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${templates_dir}/charts/${tempVars[app_full_name]}"
 
-mv ${rendered_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}/charts/${tempVars[app_full_name]}"
+cp -a ${templates_dir}/* ${templates_dir}/.* ${rendered_dir}/
 
 for i in "${!tempVars[@]}"; do
   while read -r file; do
