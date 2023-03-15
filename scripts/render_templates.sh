@@ -44,7 +44,7 @@ if [ -z ${rendered_dir} ]; then
   rm -rf ${rendered_dir}
 fi
 
-mv ${templates_dir}/* ${templates_dir}/.* ${rendered_dir}/
+cp -a ${templates_dir}/* ${templates_dir}/.* ${rendered_dir}/
 
 mv ${rendered_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}/charts/${tempVars[app_full_name]}"
 
