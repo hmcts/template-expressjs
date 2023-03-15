@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 cd "$(dirname "${0}")" || exit 1
 
+pwd
+ls
 # Substitute template params, render the templates and store in new dir
 templates_dir="../skeleton/"
-rendered_dir=".."
+rendered_dir="../"
 
 ###########
 product=rpe
