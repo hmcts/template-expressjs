@@ -2,8 +2,6 @@
 
 cd "$(dirname "${0}")" || exit 1
 
-pwd
-ls
 # Substitute template params, render the templates and store in new dir
 templates_dir="../skeleton"
 rendered_dir=".."
@@ -44,10 +42,6 @@ cp -a ${templates_dir}/* ${rendered_dir}/ || exit 1
 
 mv ${rendered_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}/charts/${tempVars[app_full_name]}"
 
-ls ..
-ls ../src/main/modules/appinsights/index.ts
-
-ls ../charts
 
 #while read -r file; do
 #  for i in "${!tempVars[@]}"; do
@@ -61,7 +55,7 @@ for i in "${!tempVars[@]}"; do
   while read -r file; do
     if [[ ! ${file} == "" ]]; then
       echo "${file}::$i::${tempVars[$i]}"
-      sed -i '' "s/\${{ values.$i }}/${tempVars[$i]}/g" "${file}"
+      sed -i "s/\${{ values.$i }}/${tempVars[$i]}/g" "${file}"
     fi
   done <<< "$(grep -ri --files-with-matches --exclude-dir={skeleton,scripts,.git} "\${{ values.${i} }}" ${rendered_dir})"
 done
