@@ -45,6 +45,10 @@ cp -a ${templates_dir}/* ${rendered_dir}/ || exit 1
 mv ${rendered_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}/charts/${tempVars[app_full_name]}"
 
 ls ..
+ls ../src/main/modules/appinsights/index.ts
+
+ls charts
+
 #while read -r file; do
 #  for i in "${!tempVars[@]}"; do
 #    echo "${file}::$i::${tempVars[$i]}"
