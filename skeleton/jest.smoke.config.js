@@ -10,10 +10,11 @@ module.exports = {
   reporters: [
     'default',
     [
-      'jest-junit',
+      'jest-html-reporter',
       {
-        outputDirectory: '<rootDir>/smoke-output/reports/',
-        outputName: 'junit-result.xml',
+        pageTitle: 'Smoke Test Report',
+        outputPath: '<rootDir>/smoke-output/reports/test-report.html',
+        includeFailureMsg: true,
       },
     ],
   ],
