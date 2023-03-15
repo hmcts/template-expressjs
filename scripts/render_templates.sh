@@ -47,7 +47,7 @@ mv ${rendered_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}/ch
 ls ..
 ls ../src/main/modules/appinsights/index.ts
 
-ls charts
+ls ../charts
 
 #while read -r file; do
 #  for i in "${!tempVars[@]}"; do
