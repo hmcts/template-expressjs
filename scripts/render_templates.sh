@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+shopt -s expand_aliases
+
+if [[ $(uname) == "Darwin" ]]; then
+  echo "using gsed"
+  alias sed="gsed"
+fi
 
 cd "$(dirname "${0}")" || exit 1
 
@@ -38,18 +44,9 @@ if [ -z ${rendered_dir} ]; then
   rm -rf ${rendered_dir}
 fi
 
-cp -a ${templates_dir}/* ${rendered_dir}/ || exit 1
+mv ${templates_dir}/* ${templates_dir}/* ${rendered_dir}/
 
 mv ${rendered_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}/charts/${tempVars[app_full_name]}"
-
-
-#while read -r file; do
-#  for i in "${!tempVars[@]}"; do
-#    echo "${file}::$i::${tempVars[$i]}"
-#    sed -i '' "s/\${{ values.$i }}/${tempVars[$i]}/g" "${file}"
-#  done
-#done <<< "$(grep -ri --files-with-matches --exclude-dir={skeleton,tests,.git} '${{ values.* }}' ${rendered_dir})"
-
 
 for i in "${!tempVars[@]}"; do
   while read -r file; do
