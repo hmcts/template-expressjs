@@ -6,17 +6,17 @@ templates_dir="../skeleton/"
 rendered_dir=".."
 
 ###########
-product=expressjs
-component=template
+product=rpe
+component=template-expressjs
 app_full_name="${product}-${component}"
 description="Test app"
 http_port="8080"
 owner="sds"
 destination_repo="hmcts"
-destination_owner="expressjs-template-test"
+destination_owner="template-expressjs"
 destination="${destination_owner}\/${destination_repo}"
-slack_contact_channel="expressjs-test"
-github_topics="expressjs-test"
+slack_contact_channel="#platops-help"
+github_topics="jenkins-cft-j-z"
 ###########
 
 declare -A tempVars=(
