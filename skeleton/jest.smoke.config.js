@@ -12,7 +12,7 @@ module.exports = {
     [
       'jest-junit',
       {
-        outputDirectory: './smoke-output/reports/',
+        outputDirectory: '<rootDir>/smoke-output/reports/',
         outputName: 'junit-result.xml',
       },
     ],
