@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 cd "$(dirname "${0}")" || exit 1
 
 pwd
@@ -39,7 +40,8 @@ if [ -z ${rendered_dir} ]; then
   rm -rf ${rendered_dir}
 fi
 
-cp -a ${templates_dir} ${rendered_dir}
+cp -a ${templates_dir} ${rendered_dir} || exit 1
+
 mv ${rendered_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${rendered_dir}/charts/${tempVars[app_full_name]}"
 
 #while read -r file; do
