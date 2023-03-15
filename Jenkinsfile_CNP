@@ -3,8 +3,8 @@
 @Library("Infrastructure")
 
 def type = "nodejs"
-def product = "${{ values.product }}"
-def component = "${{ values.component }}"
+def product = "template"
+def component = "expressjs"
 
 def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
 
