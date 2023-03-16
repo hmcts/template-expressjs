@@ -56,3 +56,18 @@ for i in "${!tempVars[@]}"; do
     fi
   done <<< "$(grep -ri --files-with-matches --exclude-dir={skeleton,scripts,.git} "\${{ values.${i} }}" ${rendered_dir})"
 done
+
+
+echo "TEMPORARY - PRINTING TROUBLESOME FILES"
+
+echo "src/main/app.ts"
+
+cat ../src/main/app.ts
+
+echo "src/test/routes/home.ts"
+
+cat ../src/test/routes/home.ts
+
+echo "src/main/app.ts"
+
+cat ../src/main/app.ts
