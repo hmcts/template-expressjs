@@ -56,3 +56,6 @@ for i in "${!tempVars[@]}"; do
     fi
   done <<< "$(grep -ri --files-with-matches --exclude-dir={skeleton,scripts,.git} "\${{ values.${i} }}" ${rendered_dir})"
 done
+
+# Ignore skeleton dir during pipeline
+echo "skeleton/" >> ../.eslintignore
