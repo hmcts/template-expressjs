@@ -62,3 +62,8 @@ done
 
 # Ignore skeleton dir during pipeline
 echo "skeleton/" >> ../.eslintignore
+
+
+echo "Printing helm chart.yamls"
+cat "${templates_dir}/charts/Chart.yaml" || echo "template Chart.yaml not found"
+cat "${rendered_dir}/charts/Chart.yaml"
