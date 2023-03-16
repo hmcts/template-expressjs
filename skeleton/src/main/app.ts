@@ -1,6 +1,5 @@
 import * as path from 'path';
 
-
 import * as bodyParser from 'body-parser';
 import config = require('config');
 import cookieParser from 'cookie-parser';
@@ -17,7 +16,6 @@ import { PropertiesVolume } from './modules/properties-volume';
 const { Logger } = require('@hmcts/nodejs-logging');
 
 const { setupDev } = require('./development');
-
 
 const env = process.env.NODE_ENV || 'development';
 const developmentMode = env === 'development';
