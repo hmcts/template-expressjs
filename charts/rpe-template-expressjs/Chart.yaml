@@ -1,7 +1,3 @@
-# This file is managed by Jenkins mainly
-# Bumping versions here will not work, you need to update
-# the Chart.yaml file in the skeleton directory
-# skeleton/charts/${{ values.app_full_name }}/Chart.yaml
 apiVersion: v2
 appVersion: '1.0'
 description: A Helm chart for rpe-template-expressjs App
