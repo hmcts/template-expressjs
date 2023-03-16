@@ -9,6 +9,11 @@ def component = "template-expressjs"
 def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
 
 withPipeline(type, product, component) {
+  afterSuccess('checkout') {
+    echo 'Render Templates'
+    sh './scripts/render_templates.sh'
+  }
+
   afterSuccess('build') {
     yarnBuilder.yarn('rebuild puppeteer')
     yarnBuilder.yarn('build')
