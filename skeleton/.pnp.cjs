@@ -48,7 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/lodash", "npm:4.14.191"],\
             ["@types/mini-css-extract-plugin", "npm:2.5.1"],\
             ["@types/node", "npm:18.7.17"],\
-            ["@types/nunjucks", "npm:3.2.1"],\
+            ["@types/nunjucks", "npm:3.2.2"],\
             ["@types/require-directory", "npm:2.1.2"],\
             ["@types/serve-favicon", "npm:2.5.3"],\
             ["@types/supertest", "npm:2.0.12"],\
@@ -6216,10 +6216,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/nunjucks", [\
-        ["npm:3.2.1", {\
-          "packageLocation": "./.yarn/cache/@types-nunjucks-npm-3.2.1-856dc9e81e-40f3dd8968.zip/node_modules/@types/nunjucks/",\
+        ["npm:3.2.2", {\
+          "packageLocation": "./.yarn/cache/@types-nunjucks-npm-3.2.2-23e29b7301-e0fdc68f01.zip/node_modules/@types/nunjucks/",\
           "packageDependencies": [\
-            ["@types/nunjucks", "npm:3.2.1"]\
+            ["@types/nunjucks", "npm:3.2.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6925,7 +6925,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/lodash", "npm:4.14.191"],\
             ["@types/mini-css-extract-plugin", "npm:2.5.1"],\
             ["@types/node", "npm:18.7.17"],\
-            ["@types/nunjucks", "npm:3.2.1"],\
+            ["@types/nunjucks", "npm:3.2.2"],\
             ["@types/require-directory", "npm:2.1.2"],\
             ["@types/serve-favicon", "npm:2.5.3"],\
             ["@types/supertest", "npm:2.0.12"],\
