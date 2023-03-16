@@ -65,5 +65,5 @@ echo "skeleton/" >> ../.eslintignore
 
 
 echo "Printing helm chart.yamls"
-cat "${templates_dir}/charts/Chart.yaml" || echo "template Chart.yaml not found"
-cat "${rendered_dir}/charts/Chart.yaml"  || echo "template Chart.yaml not found"
+cat "${templates_dir}/charts/${tempVars[app_full_name]}/Chart.yaml" || echo "template Chart.yaml not found"
+cat "${rendered_dir}/charts/${tempVars[app_full_name]}/Chart.yaml"  || echo "template Chart.yaml not found"
