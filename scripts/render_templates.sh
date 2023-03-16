@@ -47,7 +47,7 @@ fi
 mv ${templates_dir}/charts/\$\{\{\ values.app_full_name\ \}\} "${templates_dir}/charts/${tempVars[app_full_name]}"
 
 # Remove Chart.yaml so the one in the root of the repo doesn't get overwritten
-rm -rf "${templates_dir}/charts/Chart.yaml"
+#rm -rf "${templates_dir}/charts/Chart.yaml"
 
 cp -a ${templates_dir}/* ${templates_dir}/.* ${rendered_dir}/
 
@@ -66,4 +66,4 @@ echo "skeleton/" >> ../.eslintignore
 
 echo "Printing helm chart.yamls"
 cat "${templates_dir}/charts/Chart.yaml" || echo "template Chart.yaml not found"
-cat "${rendered_dir}/charts/Chart.yaml"
+cat "${rendered_dir}/charts/Chart.yaml"  || echo "template Chart.yaml not found"
