@@ -81,7 +81,7 @@
     "debug": "4.3.4",
     "eslint": "8.23.1",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jest": "27.0.4",
     "html-webpack-plugin": "5.5.0",
     "husky": "8.0.3",
