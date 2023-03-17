@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@hmcts/info-provider": "1.0.0",
-    "@hmcts/nodejs-healthcheck": "1.7.3",
+    "@hmcts/nodejs-healthcheck": "1.8.0",
     "@hmcts/nodejs-logging": "4.0.4",
     "@hmcts/properties-volume": "0.0.14",
     "@types/body-parser": "1.19.2",
