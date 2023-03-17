@@ -63,7 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai-as-promised", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.1.1"],\
             ["chokidar", "npm:3.5.3"],\
             ["codeceptjs", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.3.6"],\
-            ["config", "npm:3.3.8"],\
+            ["config", "npm:3.3.9"],\
             ["cookie-parser", "npm:1.4.6"],\
             ["copy-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.1.0"],\
             ["css-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:6.7.3"],\
@@ -6940,7 +6940,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai-as-promised", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.1.1"],\
             ["chokidar", "npm:3.5.3"],\
             ["codeceptjs", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.3.6"],\
-            ["config", "npm:3.3.8"],\
+            ["config", "npm:3.3.9"],\
             ["cookie-parser", "npm:1.4.6"],\
             ["copy-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.1.0"],\
             ["css-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:6.7.3"],\
@@ -9031,11 +9031,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["config", [\
-        ["npm:3.3.8", {\
-          "packageLocation": "./.yarn/cache/config-npm-3.3.8-46e6756218-8ae3b1a073.zip/node_modules/config/",\
+        ["npm:3.3.9", {\
+          "packageLocation": "./.yarn/cache/config-npm-3.3.9-7e0be6fe2e-2c29e40be2.zip/node_modules/config/",\
           "packageDependencies": [\
-            ["config", "npm:3.3.8"],\
-            ["json5", "npm:2.2.1"]\
+            ["config", "npm:3.3.9"],\
+            ["json5", "npm:2.2.3"]\
           ],\
           "linkType": "HARD"\
         }]\

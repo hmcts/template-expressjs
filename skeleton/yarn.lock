@@ -4362,7 +4362,7 @@ __metadata:
     chai-as-promised: 7.1.1
     chokidar: 3.5.3
     codeceptjs: ^3.3.6
-    config: 3.3.8
+    config: 3.3.9
     cookie-parser: 1.4.6
     copy-webpack-plugin: 9.1.0
     css-loader: 6.7.3
@@ -6072,12 +6072,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"config@npm:3.3.8":
-  version: 3.3.8
-  resolution: "config@npm:3.3.8"
+"config@npm:3.3.9":
+  version: 3.3.9
+  resolution: "config@npm:3.3.9"
   dependencies:
-    json5: ^2.2.1
-  checksum: 8ae3b1a073eb32b8b8e8079f4f8874d170bed291df6e3d50d0333ef1524714e6fe051593298de565daa603dc11abda21dd480c9134dbf977caddb9821816c439
+    json5: ^2.2.3
+  checksum: 2c29e40be22274462769670a4b69fcbcad2d3049eb15030073e410d32c892ef29e0c879a3d68ef92ddd572c516e4f65a11bb6458f680a44ceb0f051bcd3d97ff
   languageName: node
   linkType: hard
 
@@ -10181,7 +10181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.2.2":
+"json5@npm:^2.2.2, json5@npm:^2.2.3":
   version: 2.2.3
   resolution: "json5@npm:2.2.3"
   bin:
