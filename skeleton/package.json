@@ -50,7 +50,7 @@
     "glob": "8.0.3",
     "govuk-frontend": "4.3.1",
     "helmet": "6.0.0",
-    "jquery": "3.6.1",
+    "jquery": "3.6.4",
     "lodash": "4.17.21",
     "nunjucks": "3.2.3",
     "require-directory": "2.1.1",
