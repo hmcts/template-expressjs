@@ -92,7 +92,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nunjucks", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.2.3"],\
             ["pa11y", "npm:6.2.3"],\
             ["playwright", "npm:1.31.2"],\
-            ["prettier", "npm:2.7.1"],\
+            ["prettier", "npm:2.8.4"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.59.3"],\
@@ -7022,7 +7022,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nunjucks", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.2.3"],\
             ["pa11y", "npm:6.2.3"],\
             ["playwright", "npm:1.31.2"],\
-            ["prettier", "npm:2.7.1"],\
+            ["prettier", "npm:2.8.4"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.59.3"],\
@@ -15722,10 +15722,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:2.7.1", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-2.7.1-d1f40f5e1a-55a4409182.zip/node_modules/prettier/",\
+        ["npm:2.8.4", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.4-ba64a351d1-c173064bf3.zip/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:2.7.1"]\
+            ["prettier", "npm:2.8.4"]\
           ],\
           "linkType": "HARD"\
         }]\
