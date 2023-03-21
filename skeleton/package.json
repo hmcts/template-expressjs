@@ -90,7 +90,7 @@
     "jest-junit": "14.0.1",
     "lint-staged": "13.2.0",
     "mini-css-extract-plugin": "2.7.5",
-    "nock": "13.2.9",
+    "nock": "13.3.0",
     "nodemon": "2.0.21",
     "pa11y": "6.2.3",
     "playwright": "1.31.2",
