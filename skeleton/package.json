@@ -89,7 +89,7 @@
     "jest-html-reporter": "3.7.1",
     "jest-junit": "14.0.1",
     "lint-staged": "13.2.0",
-    "mini-css-extract-plugin": "2.6.1",
+    "mini-css-extract-plugin": "2.7.5",
     "nock": "13.2.9",
     "nodemon": "2.0.21",
     "pa11y": "6.2.3",
