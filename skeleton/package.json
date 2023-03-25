@@ -93,7 +93,7 @@
     "nock": "13.3.0",
     "nodemon": "2.0.22",
     "pa11y": "6.2.3",
-    "playwright": "1.32.0",
+    "playwright": "1.32.1",
     "prettier": "2.8.7",
     "request": "2.88.2",
     "sass": "1.60.0",
