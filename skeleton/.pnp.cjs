@@ -106,7 +106,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:29.0.5"],\
             ["ts-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.4.2"],\
             ["ts-node", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:10.9.1"],\
-            ["tsconfig-paths", "npm:4.1.2"],\
+            ["tsconfig-paths", "npm:4.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["webpack", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.77.0"],\
             ["webpack-cli", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.0.1"],\
@@ -7129,7 +7129,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:29.0.5"],\
             ["ts-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.4.2"],\
             ["ts-node", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:10.9.1"],\
-            ["tsconfig-paths", "npm:4.1.2"],\
+            ["tsconfig-paths", "npm:4.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["webpack", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.77.0"],\
             ["webpack-cli", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.0.1"],\
@@ -18182,10 +18182,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.1.2", {\
-          "packageLocation": "./.yarn/cache/tsconfig-paths-npm-4.1.2-7a84ac2b29-3d9151ecea.zip/node_modules/tsconfig-paths/",\
+        ["npm:4.2.0", {\
+          "packageLocation": "./.yarn/cache/tsconfig-paths-npm-4.2.0-ac1edf8677-28c5f7bbbc.zip/node_modules/tsconfig-paths/",\
           "packageDependencies": [\
-            ["tsconfig-paths", "npm:4.1.2"],\
+            ["tsconfig-paths", "npm:4.2.0"],\
             ["json5", "npm:2.2.3"],\
             ["minimist", "npm:1.2.6"],\
             ["strip-bom", "npm:3.0.0"]\
