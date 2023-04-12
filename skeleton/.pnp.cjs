@@ -77,7 +77,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-nunjucks", "npm:2.2.5"],\
             ["glob", "npm:8.1.0"],\
             ["govuk-frontend", "npm:4.5.0"],\
-            ["helmet", "npm:6.0.1"],\
+            ["helmet", "npm:6.1.5"],\
             ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.0"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:29.5.0"],\
@@ -7253,7 +7253,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-nunjucks", "npm:2.2.5"],\
             ["glob", "npm:8.1.0"],\
             ["govuk-frontend", "npm:4.5.0"],\
-            ["helmet", "npm:6.0.1"],\
+            ["helmet", "npm:6.1.5"],\
             ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.0"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:29.5.0"],\
@@ -12241,10 +12241,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["helmet", [\
-        ["npm:6.0.1", {\
-          "packageLocation": "./.yarn/cache/helmet-npm-6.0.1-204284f33b-1ca20d0b78.zip/node_modules/helmet/",\
+        ["npm:6.1.5", {\
+          "packageLocation": "./.yarn/cache/helmet-npm-6.1.5-523f0fdda8-58cc8f8715.zip/node_modules/helmet/",\
           "packageDependencies": [\
-            ["helmet", "npm:6.0.1"]\
+            ["helmet", "npm:6.1.5"]\
           ],\
           "linkType": "HARD"\
         }]\
