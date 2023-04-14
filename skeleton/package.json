@@ -52,7 +52,7 @@
     "helmet": "6.1.5",
     "jquery": "3.6.4",
     "lodash": "4.17.21",
-    "nunjucks": "3.2.3",
+    "nunjucks": "3.2.4",
     "require-directory": "2.1.1",
     "serve-favicon": "2.5.0",
     "ts-node": "10.9.1",
