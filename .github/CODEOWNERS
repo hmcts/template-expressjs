@@ -1,1 +1,8 @@
 * @hmcts/platform-operations
+
+# Renovate
+skeleton/package.json
+skeleton/yarn.lock
+template-expressjs/skeleton/.yarn/*
+skeleton/.pnp.cjs
+
