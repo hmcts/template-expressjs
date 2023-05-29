@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:29.5.1"],\
             ["@types/lodash", "npm:4.14.195"],\
             ["@types/mini-css-extract-plugin", "npm:2.5.1"],\
-            ["@types/node", "npm:18.16.15"],\
+            ["@types/node", "npm:18.16.16"],\
             ["@types/nunjucks", "npm:3.2.2"],\
             ["@types/require-directory", "npm:2.1.2"],\
             ["@types/serve-favicon", "npm:2.5.4"],\
@@ -6573,10 +6573,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.16.15", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.16.15-3f1564725f-65bc0fd036.zip/node_modules/@types/node/",\
+        ["npm:18.16.16", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.16.16-8a41330dc3-0efad726dd.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.16.15"]\
+            ["@types/node", "npm:18.16.16"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7308,7 +7308,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:29.5.1"],\
             ["@types/lodash", "npm:4.14.195"],\
             ["@types/mini-css-extract-plugin", "npm:2.5.1"],\
-            ["@types/node", "npm:18.16.15"],\
+            ["@types/node", "npm:18.16.16"],\
             ["@types/nunjucks", "npm:3.2.2"],\
             ["@types/require-directory", "npm:2.1.2"],\
             ["@types/serve-favicon", "npm:2.5.4"],\
@@ -18334,7 +18334,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:18.16.15"],\
+            ["@types/node", "npm:18.16.16"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
