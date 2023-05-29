@@ -77,7 +77,7 @@
     "chokidar": "3.5.3",
     "codeceptjs": "^3.3.6",
     "copy-webpack-plugin": "9.1.0",
-    "css-loader": "6.7.4",
+    "css-loader": "6.8.1",
     "debug": "4.3.4",
     "eslint": "8.41.0",
     "eslint-config-prettier": "8.8.0",
