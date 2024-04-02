@@ -1,6 +1,6 @@
-import { app } from '../../main/app';
-
 import * as supertest from 'supertest';
+
+import { app } from '../../main/app';
 
 const pa11y = require('pa11y');
 
