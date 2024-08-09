@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: corepack enable && yarn --version
+      - run: npm install -g corepack && corepack enable && yarn --version
         working-directory: ./skeleton
       - name: Run CI checks
         working-directory: ./skeleton
