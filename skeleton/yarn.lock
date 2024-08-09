@@ -2741,12 +2741,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@promptbook/utils@npm:0.61.0":
-  version: 0.61.0
-  resolution: "@promptbook/utils@npm:0.61.0"
+"@promptbook/utils@npm:0.63.0-1":
+  version: 0.63.0-1
+  resolution: "@promptbook/utils@npm:0.63.0-1"
   dependencies:
-    spacetrim: 0.11.37
-  checksum: 597a0e1d49053bfc20f2f83df9795db90e29118d321de148273ade3bd6b5c5b6c5ae9a62b881e465c19270e507fe1c2700b43f2aee6dcb9ddb47ccad2ab4ce32
+    spacetrim: 0.11.39
+  checksum: 1582bd094239461c76a650d8629eef3fc2d25adaae0e66a0a61393271ac031be3cdfd7f23cf7f70120fcfb7075b17172474ea1383092026f587ef202c1cb9714
   languageName: node
   linkType: hard
 
@@ -4738,7 +4738,7 @@ __metadata:
     react-native: 0.74.5
     request: 2.88.2
     require-directory: 2.1.1
-    sass: 1.62.1
+    sass: 1.77.8
     sass-loader: 13.3.1
     serve-favicon: 2.5.0
     sinon: 15.1.0
@@ -11477,13 +11477,13 @@ __metadata:
   linkType: hard
 
 "locate-app@npm:^2.1.0":
-  version: 2.4.23
-  resolution: "locate-app@npm:2.4.23"
+  version: 2.4.24
+  resolution: "locate-app@npm:2.4.24"
   dependencies:
-    "@promptbook/utils": 0.61.0
+    "@promptbook/utils": 0.63.0-1
     type-fest: 2.13.0
     userhome: 1.0.0
-  checksum: 1b72a51769e4269232e3e921bc6d9fbee34fafb127e22f8ae9d2626b716f69b4bb36d32c18de3856de01ad6f232e550c78f112fbdaf7a02cfe629d7783509509
+  checksum: 1ec4a0d9932c77eb2aecbe2b1e6a1a951520ac4949f745c2cf0d7a9ab83733c4095a92ea7cbbf73d4efd7e7aaa9261ed38e07481e0158e3b732cf72634fc28ca
   languageName: node
   linkType: hard
 
@@ -14748,16 +14748,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.62.1":
-  version: 1.62.1
-  resolution: "sass@npm:1.62.1"
+"sass@npm:1.77.8":
+  version: 1.77.8
+  resolution: "sass@npm:1.77.8"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 1b1b3584b38a63dd94156b65f13b90e3f84b170a38c3d5e3fa578b7a32a37aeb349b4926b0eaf9448d48e955e86b1ee01b13993f19611dad8068af07a607c13b
+  checksum: 6b5dce17faa1bd1e349b4825bf7f76559a32f3f95d789cd2847623c88ee9635e1485d3458532a05fa5b9134cfbce79a4bad3f13dc63c2433632347674db0abae
   languageName: node
   linkType: hard
 
@@ -15213,10 +15213,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"spacetrim@npm:0.11.37":
-  version: 0.11.37
-  resolution: "spacetrim@npm:0.11.37"
-  checksum: 412e90e4bc4a40a1a727b474321755bba65f84842da52b0fa537fa38415503b9405a978f7d7ca28cf1ddb44533d9373f1f26251de3db8a28d9317e2605a5c6a5
+"spacetrim@npm:0.11.39":
+  version: 0.11.39
+  resolution: "spacetrim@npm:0.11.39"
+  checksum: 22af3d3935916e16712f4f2d097c85f352ca4b2fcb5d2f3b6645f1a0a200fe20fb161e3ea33bf71182079a1f14613a1bd880914d27f07e2e65d30151a0476821
   languageName: node
   linkType: hard
 
