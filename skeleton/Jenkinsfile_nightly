@@ -12,7 +12,7 @@ def product = "${{ values.product }}"
 def component = "${{ values.component }}"
 
 withNightlyPipeline(type, product, component) {
-  after('build') {
+  afterSuccess('build') {
     yarnBuilder.yarn('build')
   }
 }
