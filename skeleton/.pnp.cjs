@@ -66,7 +66,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["config", "npm:3.3.12"],\
             ["cookie-parser", "npm:1.4.6"],\
             ["copy-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.1.0"],\
-            ["corepack", "npm:0.29.3"],\
             ["css-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:6.8.1"],\
             ["csurf", "npm:1.11.0"],\
             ["debug", "virtual:f9743bc3b8fd1d9585af3332906aa09ca68aed116f85527a955eeb93aca5dd88a36f60dbfed36ca20884a9c45f65b33b573a948e0c30a83af73e4fd6f6556fdf#npm:4.3.4"],\
@@ -8095,7 +8094,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["config", "npm:3.3.12"],\
             ["cookie-parser", "npm:1.4.6"],\
             ["copy-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.1.0"],\
-            ["corepack", "npm:0.29.3"],\
             ["css-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:6.8.1"],\
             ["csurf", "npm:1.11.0"],\
             ["debug", "virtual:f9743bc3b8fd1d9585af3332906aa09ca68aed116f85527a955eeb93aca5dd88a36f60dbfed36ca20884a9c45f65b33b573a948e0c30a83af73e4fd6f6556fdf#npm:4.3.4"],\
@@ -10818,15 +10816,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/core-util-is-npm-1.0.3-ca74b76c90-9de8597363.zip/node_modules/core-util-is/",\
           "packageDependencies": [\
             ["core-util-is", "npm:1.0.3"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["corepack", [\
-        ["npm:0.29.3", {\
-          "packageLocation": "./.yarn/cache/corepack-npm-0.29.3-ae70e01670-768d5ebad3.zip/node_modules/corepack/",\
-          "packageDependencies": [\
-            ["corepack", "npm:0.29.3"]\
           ],\
           "linkType": "HARD"\
         }]\
