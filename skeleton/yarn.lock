@@ -4542,7 +4542,7 @@ __metadata:
     react-native: 0.74.5
     request: 2.88.2
     require-directory: 2.1.1
-    sass: 1.62.1
+    sass: 1.77.8
     sass-loader: 13.3.1
     serve-favicon: 2.5.0
     sinon: 15.1.0
@@ -14487,16 +14487,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.62.1":
-  version: 1.62.1
-  resolution: "sass@npm:1.62.1"
+"sass@npm:1.77.8":
+  version: 1.77.8
+  resolution: "sass@npm:1.77.8"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 1b1b3584b38a63dd94156b65f13b90e3f84b170a38c3d5e3fa578b7a32a37aeb349b4926b0eaf9448d48e955e86b1ee01b13993f19611dad8068af07a607c13b
+  checksum: 6b5dce17faa1bd1e349b4825bf7f76559a32f3f95d789cd2847623c88ee9635e1485d3458532a05fa5b9134cfbce79a4bad3f13dc63c2433632347674db0abae
   languageName: node
   linkType: hard
 
