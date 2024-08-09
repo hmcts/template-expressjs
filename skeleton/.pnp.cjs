@@ -82,6 +82,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:29.7.0"],\
             ["jest-html-reporter", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.10.0"],\
+            ["jest-junit", "npm:16.0.0"],\
             ["jquery", "npm:3.7.0"],\
             ["lint-staged", "npm:13.2.2"],\
             ["lodash", "npm:4.17.21"],\
@@ -8110,6 +8111,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:29.7.0"],\
             ["jest-html-reporter", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.10.0"],\
+            ["jest-junit", "npm:16.0.0"],\
             ["jquery", "npm:3.7.0"],\
             ["lint-staged", "npm:13.2.2"],\
             ["lodash", "npm:4.17.21"],\
@@ -15262,6 +15264,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/typescript",\
             "jest",\
             "typescript"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["jest-junit", [\
+        ["npm:16.0.0", {\
+          "packageLocation": "./.yarn/cache/jest-junit-npm-16.0.0-39a50dfe1a-412aa4bfee.zip/node_modules/jest-junit/",\
+          "packageDependencies": [\
+            ["jest-junit", "npm:16.0.0"],\
+            ["mkdirp", "npm:1.0.4"],\
+            ["strip-ansi", "npm:6.0.1"],\
+            ["uuid", "npm:8.3.2"],\
+            ["xml", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -22496,6 +22511,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/utf-8-validate",\
             "bufferutil",\
             "utf-8-validate"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["xml", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/xml-npm-1.0.1-f50a7aeb8e-11b5545ef3.zip/node_modules/xml/",\
+          "packageDependencies": [\
+            ["xml", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
