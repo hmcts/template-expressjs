@@ -2557,12 +2557,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@promptbook/utils@npm:0.63.0-1":
-  version: 0.63.0-1
-  resolution: "@promptbook/utils@npm:0.63.0-1"
+"@promptbook/utils@npm:0.63.0-10":
+  version: 0.63.0-10
+  resolution: "@promptbook/utils@npm:0.63.0-10"
   dependencies:
     spacetrim: 0.11.39
-  checksum: 1582bd094239461c76a650d8629eef3fc2d25adaae0e66a0a61393271ac031be3cdfd7f23cf7f70120fcfb7075b17172474ea1383092026f587ef202c1cb9714
+  checksum: 0ab3e6d28c332b43793b05d5a62ebeef00707d592f325eb502e0895b62b765ada161abbd305bc9fa670492c73ac9ebe7364d2a40be6aa2985d8323018a7d5569
   languageName: node
   linkType: hard
 
@@ -3606,12 +3606,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/csurf@npm:1.11.2":
-  version: 1.11.2
-  resolution: "@types/csurf@npm:1.11.2"
+"@types/csurf@npm:1.11.5":
+  version: 1.11.5
+  resolution: "@types/csurf@npm:1.11.5"
   dependencies:
     "@types/express-serve-static-core": "*"
-  checksum: 1827f6760d43ae12390f0308289f2c40537bbcb19ec854d0c654e3129074edf6108ddab99a06986813b6cf31d4fc9fa34eaa3d418f647edf607d8af4c69d62e7
+  checksum: a51b0f3276a8c88eb986709790c227c5cc4b7d663136ee360edd17ac88df1dab5d8ccf9feed737ee46530243bff11f66ead725c585e417c1ca710d0b0245ded3
   languageName: node
   linkType: hard
 
@@ -3827,11 +3827,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^20.1.0":
-  version: 20.14.14
-  resolution: "@types/node@npm:20.14.14"
+  version: 20.14.15
+  resolution: "@types/node@npm:20.14.15"
   dependencies:
     undici-types: ~5.26.4
-  checksum: cb2199123efca94908ee7191cc7b7abc11b26bf1fbb93c2948d5537a6594eedc35d4748d9fa998078fdc2eb5cc3a11d6d87b2fea20a05bda9d304e37d3c3282a
+  checksum: 0407600c1a426efd3e97c94ef1c13edce453142a06ea4be7102bf7be3e907ea578872c7795988a72e981b8ffe942f8cfaafd98552ba82915cd6f963dd1fa9adc
   languageName: node
   linkType: hard
 
@@ -4470,7 +4470,7 @@ __metadata:
     "@types/chai-as-promised": 7.1.5
     "@types/config": 3.3.0
     "@types/cookie-parser": 1.4.3
-    "@types/csurf": 1.11.2
+    "@types/csurf": 1.11.5
     "@types/es6-promisify": 6.0.1
     "@types/express": 4.17.21
     "@types/glob": 8.1.0
@@ -11169,13 +11169,13 @@ __metadata:
   linkType: hard
 
 "locate-app@npm:^2.1.0":
-  version: 2.4.24
-  resolution: "locate-app@npm:2.4.24"
+  version: 2.4.25
+  resolution: "locate-app@npm:2.4.25"
   dependencies:
-    "@promptbook/utils": 0.63.0-1
+    "@promptbook/utils": 0.63.0-10
     type-fest: 2.13.0
     userhome: 1.0.0
-  checksum: 1ec4a0d9932c77eb2aecbe2b1e6a1a951520ac4949f745c2cf0d7a9ab83733c4095a92ea7cbbf73d4efd7e7aaa9261ed38e07481e0158e3b732cf72634fc28ca
+  checksum: 93b29f2c52912d148d58020235766d9e83e1936289b77d7af7c5fddc7e28820171304c8dfa98245392966c15b0c07e1094ca2db50b457df1ac5e6c55afb3c6d5
   languageName: node
   linkType: hard
 

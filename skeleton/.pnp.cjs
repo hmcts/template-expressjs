@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chai-as-promised", "npm:7.1.5"],\
             ["@types/config", "npm:3.3.0"],\
             ["@types/cookie-parser", "npm:1.4.3"],\
-            ["@types/csurf", "npm:1.11.2"],\
+            ["@types/csurf", "npm:1.11.5"],\
             ["@types/es6-promisify", "npm:6.0.1"],\
             ["@types/express", "npm:4.17.21"],\
             ["@types/glob", "npm:8.1.0"],\
@@ -4400,10 +4400,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@promptbook/utils", [\
-        ["npm:0.63.0-1", {\
-          "packageLocation": "./.yarn/cache/@promptbook-utils-npm-0.63.0-1-5c8e369420-1582bd0942.zip/node_modules/@promptbook/utils/",\
+        ["npm:0.63.0-10", {\
+          "packageLocation": "./.yarn/cache/@promptbook-utils-npm-0.63.0-10-116622520a-0ab3e6d28c.zip/node_modules/@promptbook/utils/",\
           "packageDependencies": [\
-            ["@promptbook/utils", "npm:0.63.0-1"],\
+            ["@promptbook/utils", "npm:0.63.0-10"],\
             ["spacetrim", "npm:0.11.39"]\
           ],\
           "linkType": "HARD"\
@@ -5577,10 +5577,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/csurf", [\
-        ["npm:1.11.2", {\
-          "packageLocation": "./.yarn/cache/@types-csurf-npm-1.11.2-6f7a2c557c-1827f6760d.zip/node_modules/@types/csurf/",\
+        ["npm:1.11.5", {\
+          "packageLocation": "./.yarn/cache/@types-csurf-npm-1.11.5-0e124e31ce-a51b0f3276.zip/node_modules/@types/csurf/",\
           "packageDependencies": [\
-            ["@types/csurf", "npm:1.11.2"],\
+            ["@types/csurf", "npm:1.11.5"],\
             ["@types/express-serve-static-core", "npm:4.19.5"]\
           ],\
           "linkType": "HARD"\
@@ -5823,10 +5823,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:20.14.14", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-20.14.14-16135fe752-cb2199123e.zip/node_modules/@types/node/",\
+        ["npm:20.14.15", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.14.15-3e9c945d93-0407600c1a.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:20.14.14"],\
+            ["@types/node", "npm:20.14.15"],\
             ["undici-types", "npm:5.26.5"]\
           ],\
           "linkType": "HARD"\
@@ -6358,7 +6358,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@wdio-types-npm-8.39.0-7847cb1d96-2245b510de.zip/node_modules/@wdio/types/",\
           "packageDependencies": [\
             ["@wdio/types", "npm:8.39.0"],\
-            ["@types/node", "npm:20.14.14"]\
+            ["@types/node", "npm:20.14.15"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6377,7 +6377,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["geckodriver", "npm:4.4.2"],\
             ["get-port", "npm:7.1.0"],\
             ["import-meta-resolve", "npm:4.1.0"],\
-            ["locate-app", "npm:2.4.24"],\
+            ["locate-app", "npm:2.4.25"],\
             ["safaridriver", "npm:0.1.2"],\
             ["split2", "npm:4.2.0"],\
             ["wait-port", "npm:1.1.0"]\
@@ -6692,7 +6692,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chai-as-promised", "npm:7.1.5"],\
             ["@types/config", "npm:3.3.0"],\
             ["@types/cookie-parser", "npm:1.4.3"],\
-            ["@types/csurf", "npm:1.11.2"],\
+            ["@types/csurf", "npm:1.11.5"],\
             ["@types/es6-promisify", "npm:6.0.1"],\
             ["@types/express", "npm:4.17.21"],\
             ["@types/glob", "npm:8.1.0"],\
@@ -10084,7 +10084,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/devtools-npm-8.39.1-b2784ea994-2973bb83f4.zip/node_modules/devtools/",\
           "packageDependencies": [\
             ["devtools", "npm:8.39.1"],\
-            ["@types/node", "npm:20.14.14"],\
+            ["@types/node", "npm:20.14.15"],\
             ["@wdio/config", "npm:8.39.0"],\
             ["@wdio/logger", "npm:8.38.0"],\
             ["@wdio/protocols", "npm:8.38.0"],\
@@ -14594,11 +14594,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["locate-app", [\
-        ["npm:2.4.24", {\
-          "packageLocation": "./.yarn/cache/locate-app-npm-2.4.24-e30cebdd1e-1ec4a0d993.zip/node_modules/locate-app/",\
+        ["npm:2.4.25", {\
+          "packageLocation": "./.yarn/cache/locate-app-npm-2.4.25-56fa35d9b7-93b29f2c52.zip/node_modules/locate-app/",\
           "packageDependencies": [\
-            ["locate-app", "npm:2.4.24"],\
-            ["@promptbook/utils", "npm:0.63.0-1"],\
+            ["locate-app", "npm:2.4.25"],\
+            ["@promptbook/utils", "npm:0.63.0-10"],\
             ["type-fest", "npm:2.13.0"],\
             ["userhome", "npm:1.0.0"]\
           ],\
