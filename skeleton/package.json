@@ -42,7 +42,7 @@
     "@types/serve-favicon": "2.5.4",
     "applicationinsights": "2.7.0",
     "axios": "1.7.3",
-    "body-parser": "1.20.2",
+    "body-parser": "1.20.3",
     "config": "3.3.12",
     "cookie-parser": "1.4.6",
     "csurf": "1.11.0",
