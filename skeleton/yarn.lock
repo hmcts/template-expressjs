@@ -2557,12 +2557,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@promptbook/utils@npm:0.63.0-1":
-  version: 0.63.0-1
-  resolution: "@promptbook/utils@npm:0.63.0-1"
+"@promptbook/utils@npm:0.63.0":
+  version: 0.63.0
+  resolution: "@promptbook/utils@npm:0.63.0"
   dependencies:
     spacetrim: 0.11.39
-  checksum: 1582bd094239461c76a650d8629eef3fc2d25adaae0e66a0a61393271ac031be3cdfd7f23cf7f70120fcfb7075b17172474ea1383092026f587ef202c1cb9714
+  checksum: 2bba430d581085ae1c7bae84bcf2637b20b69b9c7bb34d748839d6e1361841dc996dbb2af4bcdb0be18ce2b345aa86fbca047121f1f494d9bd6a3ea31f6d3889
   languageName: node
   linkType: hard
 
@@ -3624,10 +3624,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/es6-promisify@npm:6.0.1":
-  version: 6.0.1
-  resolution: "@types/es6-promisify@npm:6.0.1"
-  checksum: a717113805ed9d35f02f3fdf9a4c00b0589ca32e8a66bd22b950418e21900fda060a5578fa9ad37bd7c62f17ed327bd7570cea5dac522254d720cc1a861ecf12
+"@types/es6-promisify@npm:6.0.4":
+  version: 6.0.4
+  resolution: "@types/es6-promisify@npm:6.0.4"
+  checksum: 1df492c95d43eee2f16f5f196d56869c5c44229a35488dced5f47a518cb17532d05407b5046b964fc51fffb94761c9d5206f320a3f816e9a5276ec2edb36dc0e
   languageName: node
   linkType: hard
 
@@ -3807,11 +3807,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^20.1.0":
-  version: 20.14.14
-  resolution: "@types/node@npm:20.14.14"
+  version: 20.14.15
+  resolution: "@types/node@npm:20.14.15"
   dependencies:
     undici-types: ~5.26.4
-  checksum: cb2199123efca94908ee7191cc7b7abc11b26bf1fbb93c2948d5537a6594eedc35d4748d9fa998078fdc2eb5cc3a11d6d87b2fea20a05bda9d304e37d3c3282a
+  checksum: 0407600c1a426efd3e97c94ef1c13edce453142a06ea4be7102bf7be3e907ea578872c7795988a72e981b8ffe942f8cfaafd98552ba82915cd6f963dd1fa9adc
   languageName: node
   linkType: hard
 
@@ -4451,7 +4451,7 @@ __metadata:
     "@types/config": 3.3.0
     "@types/cookie-parser": 1.4.3
     "@types/csurf": 1.11.2
-    "@types/es6-promisify": 6.0.1
+    "@types/es6-promisify": 6.0.4
     "@types/express": 4.17.21
     "@types/glob": 8.1.0
     "@types/helmet": ^4.0.0
@@ -11215,13 +11215,13 @@ __metadata:
   linkType: hard
 
 "locate-app@npm:^2.1.0":
-  version: 2.4.24
-  resolution: "locate-app@npm:2.4.24"
+  version: 2.4.26
+  resolution: "locate-app@npm:2.4.26"
   dependencies:
-    "@promptbook/utils": 0.63.0-1
+    "@promptbook/utils": 0.63.0
     type-fest: 2.13.0
     userhome: 1.0.0
-  checksum: 1ec4a0d9932c77eb2aecbe2b1e6a1a951520ac4949f745c2cf0d7a9ab83733c4095a92ea7cbbf73d4efd7e7aaa9261ed38e07481e0158e3b732cf72634fc28ca
+  checksum: 10872a6ccab2285da8f22d777f4f31efb269890cc6e62a7381629f07426b95197092610282f6cd633e95d4bd9e84fdd69f4d97afa25b3ace080472e5cb20197b
   languageName: node
   linkType: hard
 
