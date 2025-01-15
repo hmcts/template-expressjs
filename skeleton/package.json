@@ -38,7 +38,7 @@
     "@types/lodash": "4.14.195",
     "@types/node": "18.19.43",
     "@types/nunjucks": "3.2.6",
-    "@types/require-directory": "2.1.2",
+    "@types/require-directory": "2.1.6",
     "@types/serve-favicon": "2.5.4",
     "applicationinsights": "2.7.0",
     "axios": "1.7.5",
