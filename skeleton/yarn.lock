@@ -4040,13 +4040,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:29.5.2":
-  version: 29.5.2
-  resolution: "@types/jest@npm:29.5.2"
+"@types/jest@npm:29.5.14":
+  version: 29.5.14
+  resolution: "@types/jest@npm:29.5.14"
   dependencies:
     expect: "npm:^29.0.0"
     pretty-format: "npm:^29.0.0"
-  checksum: 10/c45d1f2825b31c87b479d6ea0e22d0353c11c547f02c85e504623550527460e4fc572cd566374c4c00fcff2c8a022ef71c4b52545ccb03118b603b3c1e4e884f
+  checksum: 10/59ec7a9c4688aae8ee529316c43853468b6034f453d08a2e1064b281af9c81234cec986be796288f1bbb29efe943bc950e70c8fa8faae1e460d50e3cf9760f9b
   languageName: node
   linkType: hard
 
@@ -4700,7 +4700,7 @@ __metadata:
     "@types/express": "npm:4.17.21"
     "@types/glob": "npm:8.1.0"
     "@types/helmet": "npm:^4.0.0"
-    "@types/jest": "npm:29.5.2"
+    "@types/jest": "npm:29.5.14"
     "@types/lodash": "npm:4.14.195"
     "@types/node": "npm:^22.14.1"
     "@types/nunjucks": "npm:3.2.6"
