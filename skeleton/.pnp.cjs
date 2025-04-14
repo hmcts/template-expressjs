@@ -40,7 +40,7 @@ const RAW_RUNTIME_STATE =
           ["@types/chai", "npm:5.2.1"],\
           ["@types/chai-as-promised", "npm:7.1.5"],\
           ["@types/config", "npm:3.3.0"],\
-          ["@types/cookie-parser", "npm:1.4.3"],\
+          ["@types/cookie-parser", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8"],\
           ["@types/csurf", "npm:1.11.2"],\
           ["@types/es6-promisify", "npm:6.0.1"],\
           ["@types/express", "npm:4.17.21"],\
@@ -66,7 +66,7 @@ const RAW_RUNTIME_STATE =
           ["chai-as-promised", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.1.1"],\
           ["codeceptjs", "npm:3.7.3"],\
           ["config", "npm:3.3.12"],\
-          ["cookie-parser", "npm:1.4.6"],\
+          ["cookie-parser", "npm:1.4.7"],\
           ["copy-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.1.0"],\
           ["css-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:6.8.1"],\
           ["csurf", "npm:1.11.0"],\
@@ -6944,11 +6944,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/cookie-parser", [\
-      ["npm:1.4.3", {\
-        "packageLocation": "./.yarn/cache/@types-cookie-parser-npm-1.4.3-4bda65954a-f390f3af1b.zip/node_modules/@types/cookie-parser/",\
+      ["npm:1.4.8", {\
+        "packageLocation": "./.yarn/cache/@types-cookie-parser-npm-1.4.8-fa95028070-b26ace5560.zip/node_modules/@types/cookie-parser/",\
         "packageDependencies": [\
-          ["@types/cookie-parser", "npm:1.4.3"],\
+          ["@types/cookie-parser", "npm:1.4.8"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8", {\
+        "packageLocation": "./.yarn/__virtual__/@types-cookie-parser-virtual-ebd91c16c8/0/cache/@types-cookie-parser-npm-1.4.8-fa95028070-b26ace5560.zip/node_modules/@types/cookie-parser/",\
+        "packageDependencies": [\
+          ["@types/cookie-parser", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8"],\
           ["@types/express", "npm:4.17.21"]\
+        ],\
+        "packagePeers": [\
+          "@types/express"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7989,7 +7999,7 @@ const RAW_RUNTIME_STATE =
           ["@types/chai", "npm:5.2.1"],\
           ["@types/chai-as-promised", "npm:7.1.5"],\
           ["@types/config", "npm:3.3.0"],\
-          ["@types/cookie-parser", "npm:1.4.3"],\
+          ["@types/cookie-parser", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8"],\
           ["@types/csurf", "npm:1.11.2"],\
           ["@types/es6-promisify", "npm:6.0.1"],\
           ["@types/express", "npm:4.17.21"],\
@@ -8015,7 +8025,7 @@ const RAW_RUNTIME_STATE =
           ["chai-as-promised", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.1.1"],\
           ["codeceptjs", "npm:3.7.3"],\
           ["config", "npm:3.3.12"],\
-          ["cookie-parser", "npm:1.4.6"],\
+          ["cookie-parser", "npm:1.4.7"],\
           ["copy-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.1.0"],\
           ["css-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:6.8.1"],\
           ["csurf", "npm:1.11.0"],\
@@ -10612,27 +10622,27 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.4.1", {\
-        "packageLocation": "./.yarn/cache/cookie-npm-0.4.1-cc5e2ebb42-0f2defd60a.zip/node_modules/cookie/",\
-        "packageDependencies": [\
-          ["cookie", "npm:0.4.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.6.0", {\
         "packageLocation": "./.yarn/cache/cookie-npm-0.6.0-362d6a2e45-c1f8f2ea7d.zip/node_modules/cookie/",\
         "packageDependencies": [\
           ["cookie", "npm:0.6.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:0.7.2", {\
+        "packageLocation": "./.yarn/cache/cookie-npm-0.7.2-6ea9ee4231-24b286c556.zip/node_modules/cookie/",\
+        "packageDependencies": [\
+          ["cookie", "npm:0.7.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["cookie-parser", [\
-      ["npm:1.4.6", {\
-        "packageLocation": "./.yarn/cache/cookie-parser-npm-1.4.6-a68f84d02a-1e5a63aa82.zip/node_modules/cookie-parser/",\
+      ["npm:1.4.7", {\
+        "packageLocation": "./.yarn/cache/cookie-parser-npm-1.4.7-970a70a2fd-243fa13f21.zip/node_modules/cookie-parser/",\
         "packageDependencies": [\
-          ["cookie", "npm:0.4.1"],\
-          ["cookie-parser", "npm:1.4.6"],\
+          ["cookie", "npm:0.7.2"],\
+          ["cookie-parser", "npm:1.4.7"],\
           ["cookie-signature", "npm:1.0.6"]\
         ],\
         "linkType": "HARD"\
