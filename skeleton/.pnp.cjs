@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.26.9"],\
           ["@codeceptjs/allure-legacy", "npm:1.0.2"],\
           ["@codeceptjs/configure", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:0.10.0"],\
-          ["@hmcts/info-provider", "npm:1.2.1"],\
+          ["@hmcts/info-provider", "npm:1.2.3"],\
           ["@hmcts/nodejs-healthcheck", "npm:1.8.5"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:0.0.14"],\
@@ -6116,11 +6116,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@hmcts/info-provider", [\
-      ["npm:1.2.1", {\
-        "packageLocation": "./.yarn/cache/@hmcts-info-provider-npm-1.2.1-0c905c3d08-ec2f55f056.zip/node_modules/@hmcts/info-provider/",\
+      ["npm:1.2.3", {\
+        "packageLocation": "./.yarn/cache/@hmcts-info-provider-npm-1.2.3-ca9aa43193-cc712b89bb.zip/node_modules/@hmcts/info-provider/",\
         "packageDependencies": [\
-          ["@hmcts/info-provider", "npm:1.2.1"],\
-          ["express", "npm:4.21.0"],\
+          ["@hmcts/info-provider", "npm:1.2.3"],\
+          ["express", "npm:4.21.2"],\
           ["js-yaml", "npm:4.1.0"]\
         ],\
         "linkType": "HARD"\
@@ -8403,7 +8403,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.26.9"],\
           ["@codeceptjs/allure-legacy", "npm:1.0.2"],\
           ["@codeceptjs/configure", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:0.10.0"],\
-          ["@hmcts/info-provider", "npm:1.2.1"],\
+          ["@hmcts/info-provider", "npm:1.2.3"],\
           ["@hmcts/nodejs-healthcheck", "npm:1.8.5"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:0.0.14"],\
@@ -10911,6 +10911,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["npm:0.7.1", {\
+        "packageLocation": "./.yarn/cache/cookie-npm-0.7.1-f01524ff99-aec6a6aa07.zip/node_modules/cookie/",\
+        "packageDependencies": [\
+          ["cookie", "npm:0.7.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.7.2", {\
         "packageLocation": "./.yarn/cache/cookie-npm-0.7.2-6ea9ee4231-24b286c556.zip/node_modules/cookie/",\
         "packageDependencies": [\
@@ -12761,6 +12768,44 @@ const RAW_RUNTIME_STATE =
           ["on-finished", "npm:2.4.1"],\
           ["parseurl", "npm:1.3.3"],\
           ["path-to-regexp", "npm:0.1.10"],\
+          ["proxy-addr", "npm:2.0.7"],\
+          ["qs", "npm:6.13.0"],\
+          ["range-parser", "npm:1.2.1"],\
+          ["safe-buffer", "npm:5.2.1"],\
+          ["send", "npm:0.19.0"],\
+          ["serve-static", "npm:1.16.2"],\
+          ["setprototypeof", "npm:1.2.0"],\
+          ["statuses", "npm:2.0.1"],\
+          ["type-is", "npm:1.6.18"],\
+          ["utils-merge", "npm:1.0.1"],\
+          ["vary", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.21.2", {\
+        "packageLocation": "./.yarn/cache/express-npm-4.21.2-9b3bd32250-34571c442f.zip/node_modules/express/",\
+        "packageDependencies": [\
+          ["accepts", "npm:1.3.8"],\
+          ["array-flatten", "npm:1.1.1"],\
+          ["body-parser", "npm:1.20.3"],\
+          ["content-disposition", "npm:0.5.4"],\
+          ["content-type", "npm:1.0.5"],\
+          ["cookie", "npm:0.7.1"],\
+          ["cookie-signature", "npm:1.0.6"],\
+          ["debug", "virtual:c7b184cd14c02e3ce555ab1875e60cf5033c617e17d82c4c02ea822101d3c817f48bf25a766b4d4335742dc5c9c14c2e88a57ed955a56c4ad0613899f82f5618#npm:2.6.9"],\
+          ["depd", "npm:2.0.0"],\
+          ["encodeurl", "npm:2.0.0"],\
+          ["escape-html", "npm:1.0.3"],\
+          ["etag", "npm:1.8.1"],\
+          ["express", "npm:4.21.2"],\
+          ["finalhandler", "npm:1.3.1"],\
+          ["fresh", "npm:0.5.2"],\
+          ["http-errors", "npm:2.0.0"],\
+          ["merge-descriptors", "npm:1.0.3"],\
+          ["methods", "npm:1.1.2"],\
+          ["on-finished", "npm:2.4.1"],\
+          ["parseurl", "npm:1.3.3"],\
+          ["path-to-regexp", "npm:0.1.12"],\
           ["proxy-addr", "npm:2.0.7"],\
           ["qs", "npm:6.13.0"],\
           ["range-parser", "npm:1.2.1"],\
@@ -18015,6 +18060,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/path-to-regexp-npm-0.1.10-63516149e0-894e31f1b2.zip/node_modules/path-to-regexp/",\
         "packageDependencies": [\
           ["path-to-regexp", "npm:0.1.10"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.1.12", {\
+        "packageLocation": "./.yarn/cache/path-to-regexp-npm-0.1.12-a9bf1de212-2e30f6a014.zip/node_modules/path-to-regexp/",\
+        "packageDependencies": [\
+          ["path-to-regexp", "npm:0.1.12"]\
         ],\
         "linkType": "HARD"\
       }],\
