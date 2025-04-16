@@ -10,8 +10,8 @@ import * as bodyParser from 'body-parser';
 import config = require('config');
 import cookieParser from 'cookie-parser';
 import express from 'express';
+import RateLimit from 'express-rate-limit';
 import { glob } from 'glob';
-import favicon from 'serve-favicon';
 
 const { setupDev } = require('./development');
 
@@ -19,6 +19,11 @@ const { Logger } = require('@hmcts/nodejs-logging');
 
 const env = process.env.NODE_ENV || 'development';
 const developmentMode = env === 'development';
+
+const limiter = RateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // max 100 requests per windowMs
+});
 
 export const app = express();
 app.locals.ENV = env;
@@ -31,7 +36,10 @@ new Nunjucks(developmentMode).enableFor(app);
 // secure the application by adding various HTTP headers to its responses
 new Helmet(config.get('security')).enableFor(app);
 
-app.use(favicon(path.join(__dirname, '/public/assets/images/favicon.ico')));
+app.get('/favicon.ico', limiter, (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/assets/images/favicon.ico'));
+});
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
