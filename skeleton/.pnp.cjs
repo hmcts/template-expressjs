@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["@types/cookie-parser", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8"],\
           ["@types/csurf", "npm:1.11.5"],\
           ["@types/es6-promisify", "npm:6.0.4"],\
-          ["@types/express", "npm:4.17.21"],\
+          ["@types/express", "npm:4.17.22"],\
           ["@types/glob", "npm:8.1.0"],\
           ["@types/helmet", "npm:4.0.0"],\
           ["@types/jest", "npm:29.5.14"],\
@@ -5980,7 +5980,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@types-cookie-parser-virtual-ebd91c16c8/0/cache/@types-cookie-parser-npm-1.4.8-fa95028070-b26ace5560.zip/node_modules/@types/cookie-parser/",\
         "packageDependencies": [\
           ["@types/cookie-parser", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8"],\
-          ["@types/express", "npm:4.17.21"]\
+          ["@types/express", "npm:4.17.22"]\
         ],\
         "packagePeers": [\
           "@types/express"\
@@ -6050,6 +6050,17 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/body-parser", "npm:1.19.5"],\
           ["@types/express", "npm:4.17.21"],\
+          ["@types/express-serve-static-core", "npm:4.19.5"],\
+          ["@types/qs", "npm:6.9.18"],\
+          ["@types/serve-static", "npm:1.15.7"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.17.22", {\
+        "packageLocation": "./.yarn/cache/@types-express-npm-4.17.22-cb2b862707-9497634fc3.zip/node_modules/@types/express/",\
+        "packageDependencies": [\
+          ["@types/body-parser", "npm:1.19.5"],\
+          ["@types/express", "npm:4.17.22"],\
           ["@types/express-serve-static-core", "npm:4.19.5"],\
           ["@types/qs", "npm:6.9.18"],\
           ["@types/serve-static", "npm:1.15.7"]\
@@ -7014,7 +7025,7 @@ const RAW_RUNTIME_STATE =
           ["@types/cookie-parser", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8"],\
           ["@types/csurf", "npm:1.11.5"],\
           ["@types/es6-promisify", "npm:6.0.4"],\
-          ["@types/express", "npm:4.17.21"],\
+          ["@types/express", "npm:4.17.22"],\
           ["@types/glob", "npm:8.1.0"],\
           ["@types/helmet", "npm:4.0.0"],\
           ["@types/jest", "npm:29.5.14"],\
@@ -11383,7 +11394,7 @@ const RAW_RUNTIME_STATE =
       ["virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.5.0", {\
         "packageLocation": "./.yarn/__virtual__/express-rate-limit-virtual-65c8227a84/0/cache/express-rate-limit-npm-7.5.0-e9898135bd-eff34c83bf.zip/node_modules/express-rate-limit/",\
         "packageDependencies": [\
-          ["@types/express", "npm:4.17.21"],\
+          ["@types/express", "npm:4.17.22"],\
           ["express", "npm:4.21.0"],\
           ["express-rate-limit", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.5.0"]\
         ],\
