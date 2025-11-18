@@ -46,7 +46,7 @@
     "express": "^4.19.2",
     "express-nunjucks": "2.2.5",
     "express-rate-limit": "^7.5.0",
-    "glob": "10.4.5",
+    "glob": "11.1.0",
     "govuk-frontend": "^5.9.0",
     "helmet": "6.2.0",
     "jquery": "3.7.0",
