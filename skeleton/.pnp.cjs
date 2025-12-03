@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["@types/cookie-parser", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8"],\
           ["@types/csurf", "npm:1.11.5"],\
           ["@types/es6-promisify", "npm:6.0.4"],\
-          ["@types/express", "npm:4.17.21"],\
+          ["@types/express", "npm:4.17.25"],\
           ["@types/glob", "npm:8.1.0"],\
           ["@types/helmet", "npm:4.0.0"],\
           ["@types/jest", "npm:29.5.14"],\
@@ -6186,7 +6186,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@types-cookie-parser-virtual-ebd91c16c8/0/cache/@types-cookie-parser-npm-1.4.8-fa95028070-b26ace5560.zip/node_modules/@types/cookie-parser/",\
         "packageDependencies": [\
           ["@types/cookie-parser", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8"],\
-          ["@types/express", "npm:4.17.21"]\
+          ["@types/express", "npm:4.17.25"]\
         ],\
         "packagePeers": [\
           "@types/express"\
@@ -6259,6 +6259,17 @@ const RAW_RUNTIME_STATE =
           ["@types/express-serve-static-core", "npm:4.19.5"],\
           ["@types/qs", "npm:6.9.18"],\
           ["@types/serve-static", "npm:1.15.7"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.17.25", {\
+        "packageLocation": "./.yarn/cache/@types-express-npm-4.17.25-3e4c367cc7-c309fdb79f.zip/node_modules/@types/express/",\
+        "packageDependencies": [\
+          ["@types/body-parser", "npm:1.19.5"],\
+          ["@types/express", "npm:4.17.25"],\
+          ["@types/express-serve-static-core", "npm:4.19.5"],\
+          ["@types/qs", "npm:6.9.18"],\
+          ["@types/serve-static", "npm:1.15.10"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6523,6 +6534,15 @@ const RAW_RUNTIME_STATE =
           ["@types/send", "npm:0.17.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:0.17.6", {\
+        "packageLocation": "./.yarn/cache/@types-send-npm-0.17.6-fe650e1f5c-4948ab32ab.zip/node_modules/@types/send/",\
+        "packageDependencies": [\
+          ["@types/mime", "npm:1.3.5"],\
+          ["@types/node", "npm:22.15.29"],\
+          ["@types/send", "npm:0.17.6"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@types/serve-favicon", [\
@@ -6536,6 +6556,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/serve-static", [\
+      ["npm:1.15.10", {\
+        "packageLocation": "./.yarn/cache/@types-serve-static-npm-1.15.10-7bd7926ff3-d9be724875.zip/node_modules/@types/serve-static/",\
+        "packageDependencies": [\
+          ["@types/http-errors", "npm:2.0.4"],\
+          ["@types/node", "npm:22.15.29"],\
+          ["@types/send", "npm:0.17.6"],\
+          ["@types/serve-static", "npm:1.15.10"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:1.15.7", {\
         "packageLocation": "./.yarn/cache/@types-serve-static-npm-1.15.7-d4eef0bd1a-c5a7171d56.zip/node_modules/@types/serve-static/",\
         "packageDependencies": [\
@@ -7220,7 +7250,7 @@ const RAW_RUNTIME_STATE =
           ["@types/cookie-parser", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.4.8"],\
           ["@types/csurf", "npm:1.11.5"],\
           ["@types/es6-promisify", "npm:6.0.4"],\
-          ["@types/express", "npm:4.17.21"],\
+          ["@types/express", "npm:4.17.25"],\
           ["@types/glob", "npm:8.1.0"],\
           ["@types/helmet", "npm:4.0.0"],\
           ["@types/jest", "npm:29.5.14"],\
@@ -11589,7 +11619,7 @@ const RAW_RUNTIME_STATE =
       ["virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.5.0", {\
         "packageLocation": "./.yarn/__virtual__/express-rate-limit-virtual-65c8227a84/0/cache/express-rate-limit-npm-7.5.0-e9898135bd-eff34c83bf.zip/node_modules/express-rate-limit/",\
         "packageDependencies": [\
-          ["@types/express", "npm:4.17.21"],\
+          ["@types/express", "npm:4.17.25"],\
           ["express", "npm:4.21.0"],\
           ["express-rate-limit", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.5.0"]\
         ],\
