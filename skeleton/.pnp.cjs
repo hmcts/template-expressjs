@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-healthcheck", "npm:1.8.5"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:0.0.14"],\
-          ["@types/body-parser", "npm:1.19.5"],\
+          ["@types/body-parser", "npm:1.19.6"],\
           ["@types/chai", "npm:5.2.3"],\
           ["@types/chai-as-promised", "npm:7.1.8"],\
           ["@types/config", "npm:3.3.5"],\
@@ -61,7 +61,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.12.0"],\
           ["axios-debug-log", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.0.0"],\
           ["babel-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.2.1"],\
-          ["body-parser", "npm:1.20.3"],\
+          ["body-parser", "npm:1.20.4"],\
           ["chai", "npm:4.5.0"],\
           ["chai-as-promised", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.1.2"],\
           ["codeceptjs", "npm:3.7.3"],\
@@ -6237,6 +6237,15 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.15.29"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.19.6", {\
+        "packageLocation": "./.yarn/cache/@types-body-parser-npm-1.19.6-363c879d4f-33041e88ea.zip/node_modules/@types/body-parser/",\
+        "packageDependencies": [\
+          ["@types/body-parser", "npm:1.19.6"],\
+          ["@types/connect", "npm:3.4.38"],\
+          ["@types/node", "npm:22.15.29"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@types/chai", [\
@@ -7348,7 +7357,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-healthcheck", "npm:1.8.5"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:0.0.14"],\
-          ["@types/body-parser", "npm:1.19.5"],\
+          ["@types/body-parser", "npm:1.19.6"],\
           ["@types/chai", "npm:5.2.3"],\
           ["@types/chai-as-promised", "npm:7.1.8"],\
           ["@types/config", "npm:3.3.5"],\
@@ -7373,7 +7382,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.12.0"],\
           ["axios-debug-log", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:1.0.0"],\
           ["babel-loader", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:9.2.1"],\
-          ["body-parser", "npm:1.20.3"],\
+          ["body-parser", "npm:1.20.4"],\
           ["chai", "npm:4.5.0"],\
           ["chai-as-promised", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.1.2"],\
           ["codeceptjs", "npm:3.7.3"],\
@@ -8699,25 +8708,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["body-parser", [\
-      ["npm:1.20.3", {\
-        "packageLocation": "./.yarn/cache/body-parser-npm-1.20.3-c7b184cd14-8723e3d7a6.zip/node_modules/body-parser/",\
-        "packageDependencies": [\
-          ["body-parser", "npm:1.20.3"],\
-          ["bytes", "npm:3.1.2"],\
-          ["content-type", "npm:1.0.5"],\
-          ["debug", "virtual:805a6a51d0df6b08b4af25f349d363255a95ecda56326a7424f66814402366e7b8a6f2364c84e429910891b551625fb1d41531b0304bef4bcd62a275f81a3af9#npm:2.6.9"],\
-          ["depd", "npm:2.0.0"],\
-          ["destroy", "npm:1.2.0"],\
-          ["http-errors", "npm:2.0.0"],\
-          ["iconv-lite", "npm:0.4.24"],\
-          ["on-finished", "npm:2.4.1"],\
-          ["qs", "npm:6.13.0"],\
-          ["raw-body", "npm:2.5.2"],\
-          ["type-is", "npm:1.6.18"],\
-          ["unpipe", "npm:1.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:1.20.4", {\
         "packageLocation": "./.yarn/cache/body-parser-npm-1.20.4-805a6a51d0-ff67e28d3f.zip/node_modules/body-parser/",\
         "packageDependencies": [\
@@ -17828,17 +17818,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["raw-body", [\
-      ["npm:2.5.2", {\
-        "packageLocation": "./.yarn/cache/raw-body-npm-2.5.2-5cb9dfebc1-863b5171e1.zip/node_modules/raw-body/",\
-        "packageDependencies": [\
-          ["bytes", "npm:3.1.2"],\
-          ["http-errors", "npm:2.0.0"],\
-          ["iconv-lite", "npm:0.4.24"],\
-          ["raw-body", "npm:2.5.2"],\
-          ["unpipe", "npm:1.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:2.5.3", {\
         "packageLocation": "./.yarn/cache/raw-body-npm-2.5.3-bcb2281e9c-f35759fe5a.zip/node_modules/raw-body/",\
         "packageDependencies": [\
