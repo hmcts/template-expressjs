@@ -78,7 +78,7 @@ const RAW_RUNTIME_STATE =
           ["express", "npm:4.22.1"],\
           ["express-nunjucks", "npm:2.2.5"],\
           ["express-rate-limit", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.5.1"],\
-          ["glob", "npm:11.1.0"],\
+          ["glob", "npm:12.0.0"],\
           ["govuk-frontend", "npm:5.9.0"],\
           ["helmet", "npm:6.2.0"],\
           ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.1"],\
@@ -7647,7 +7647,7 @@ const RAW_RUNTIME_STATE =
           ["express", "npm:4.22.1"],\
           ["express-nunjucks", "npm:2.2.5"],\
           ["express-rate-limit", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:7.5.1"],\
-          ["glob", "npm:11.1.0"],\
+          ["glob", "npm:12.0.0"],\
           ["govuk-frontend", "npm:5.9.0"],\
           ["helmet", "npm:6.2.0"],\
           ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.1"],\
@@ -12905,11 +12905,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:11.1.0", {\
-        "packageLocation": "./.yarn/cache/glob-npm-11.1.0-9420ed5efe-da45018196.zip/node_modules/glob/",\
+      ["npm:12.0.0", {\
+        "packageLocation": "./.yarn/cache/glob-npm-12.0.0-fbb850d155-6e21b3f1f1.zip/node_modules/glob/",\
         "packageDependencies": [\
           ["foreground-child", "npm:3.3.1"],\
-          ["glob", "npm:11.1.0"],\
+          ["glob", "npm:12.0.0"],\
           ["jackspeak", "npm:4.1.1"],\
           ["minimatch", "npm:10.1.1"],\
           ["minipass", "npm:7.1.2"],\
