@@ -13592,10 +13592,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["image-size", [\
-      ["npm:1.1.1", {\
-        "packageLocation": "./.yarn/cache/image-size-npm-1.1.1-4e6d664667-f28966dd3f.zip/node_modules/image-size/",\
+      ["npm:1.2.1", {\
+        "packageLocation": "./.yarn/cache/image-size-npm-1.2.1-e285f3c080-b290c6cc56.zip/node_modules/image-size/",\
         "packageDependencies": [\
-          ["image-size", "npm:1.1.1"],\
+          ["image-size", "npm:1.2.1"],\
           ["queue", "npm:6.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -15912,7 +15912,7 @@ const RAW_RUNTIME_STATE =
           ["flow-enums-runtime", "npm:0.0.6"],\
           ["graceful-fs", "npm:4.2.11"],\
           ["hermes-parser", "npm:0.25.1"],\
-          ["image-size", "npm:1.1.1"],\
+          ["image-size", "npm:1.2.1"],\
           ["invariant", "npm:2.2.4"],\
           ["jest-worker", "npm:29.7.0"],\
           ["jsc-safe-url", "npm:0.2.4"],\
