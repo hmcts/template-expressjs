@@ -90,7 +90,7 @@ const RAW_RUNTIME_STATE =
           ["lint-staged", "npm:13.2.2"],\
           ["lodash", "npm:4.17.21"],\
           ["mini-css-extract-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:2.7.6"],\
-          ["nock", "npm:13.3.1"],\
+          ["nock", "npm:13.5.6"],\
           ["nodemon", "npm:2.0.22"],\
           ["nunjucks", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.2.4"],\
           ["pa11y", "npm:8.0.0"],\
@@ -7659,7 +7659,7 @@ const RAW_RUNTIME_STATE =
           ["lint-staged", "npm:13.2.2"],\
           ["lodash", "npm:4.17.21"],\
           ["mini-css-extract-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:2.7.6"],\
-          ["nock", "npm:13.3.1"],\
+          ["nock", "npm:13.5.6"],\
           ["nodemon", "npm:2.0.22"],\
           ["nunjucks", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.2.4"],\
           ["pa11y", "npm:8.0.0"],\
@@ -16643,13 +16643,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["nock", [\
-      ["npm:13.3.1", {\
-        "packageLocation": "./.yarn/cache/nock-npm-13.3.1-0ba4ee80e1-0177db9aa4.zip/node_modules/nock/",\
+      ["npm:13.5.6", {\
+        "packageLocation": "./.yarn/cache/nock-npm-13.5.6-6fbafbb636-a57c265b75.zip/node_modules/nock/",\
         "packageDependencies": [\
           ["debug", "virtual:2b51d83636a42cdc1434b9a574324a754fe902f0d8f47c84f37fc9dd9e42f0be9d5cd9599ca4ccf8c80b9be5756c7aea000403217e2fd7a585437af81d091cfd#npm:4.4.0"],\
           ["json-stringify-safe", "npm:5.0.1"],\
-          ["lodash", "npm:4.17.21"],\
-          ["nock", "npm:13.3.1"],\
+          ["nock", "npm:13.5.6"],\
           ["propagate", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
