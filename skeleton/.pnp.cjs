@@ -81,7 +81,7 @@ const RAW_RUNTIME_STATE =
           ["glob", "npm:11.1.0"],\
           ["govuk-frontend", "npm:5.9.0"],\
           ["helmet", "npm:6.2.0"],\
-          ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.1"],\
+          ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.6.5"],\
           ["husky", "npm:8.0.3"],\
           ["jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:29.7.0"],\
           ["jest-html-reporter", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.10.2"],\
@@ -7650,7 +7650,7 @@ const RAW_RUNTIME_STATE =
           ["glob", "npm:11.1.0"],\
           ["govuk-frontend", "npm:5.9.0"],\
           ["helmet", "npm:6.2.0"],\
-          ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.1"],\
+          ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.6.5"],\
           ["husky", "npm:8.0.3"],\
           ["jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:29.7.0"],\
           ["jest-html-reporter", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:3.10.2"],\
@@ -13326,26 +13326,30 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["html-webpack-plugin", [\
-      ["npm:5.5.1", {\
-        "packageLocation": "./.yarn/cache/html-webpack-plugin-npm-5.5.1-3bb416367d-e34c90fdbb.zip/node_modules/html-webpack-plugin/",\
+      ["npm:5.6.5", {\
+        "packageLocation": "./.yarn/cache/html-webpack-plugin-npm-5.6.5-e4bda97f75-89e84f6ede.zip/node_modules/html-webpack-plugin/",\
         "packageDependencies": [\
-          ["html-webpack-plugin", "npm:5.5.1"]\
+          ["html-webpack-plugin", "npm:5.6.5"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.1", {\
-        "packageLocation": "./.yarn/__virtual__/html-webpack-plugin-virtual-29b43ccf75/0/cache/html-webpack-plugin-npm-5.5.1-3bb416367d-e34c90fdbb.zip/node_modules/html-webpack-plugin/",\
+      ["virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.6.5", {\
+        "packageLocation": "./.yarn/__virtual__/html-webpack-plugin-virtual-bed65f5859/0/cache/html-webpack-plugin-npm-5.6.5-e4bda97f75-89e84f6ede.zip/node_modules/html-webpack-plugin/",\
         "packageDependencies": [\
+          ["@rspack/core", null],\
           ["@types/html-minifier-terser", "npm:6.1.0"],\
+          ["@types/rspack__core", null],\
           ["@types/webpack", null],\
           ["html-minifier-terser", "npm:6.1.0"],\
-          ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.5.1"],\
+          ["html-webpack-plugin", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.6.5"],\
           ["lodash", "npm:4.17.21"],\
           ["pretty-error", "npm:4.0.0"],\
           ["tapable", "npm:2.2.1"],\
           ["webpack", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:5.94.0"]\
         ],\
         "packagePeers": [\
+          "@rspack/core",\
+          "@types/rspack__core",\
           "@types/webpack",\
           "webpack"\
         ],\
