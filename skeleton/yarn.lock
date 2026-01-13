@@ -4837,7 +4837,7 @@ __metadata:
     eslint-config-prettier: "npm:8.8.0"
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-jest: "npm:^27.2.1"
-    express: "npm:^4.19.2"
+    express: "npm:4.22.1"
     express-nunjucks: "npm:2.2.5"
     express-rate-limit: "npm:^7.5.0"
     glob: "npm:11.1.0"
@@ -8419,7 +8419,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express@npm:^4.19.2, express@npm:^4.21.2":
+"express@npm:4.22.1, express@npm:^4.21.2":
   version: 4.22.1
   resolution: "express@npm:4.22.1"
   dependencies:
