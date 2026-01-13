@@ -77,16 +77,16 @@ spec:
       input:
         url: ./skeleton
         copyWithoutTemplating:
-          - ".yarn/**"
-          - "src/main/views/**"
+          - '.yarn/**'
+          - 'src/main/views/**'
         values:
-          product: "${{ parameters.product }}"
-          component: "${{ parameters.component }}"
-          app_full_name: "${{ parameters.product }}-${{ parameters.component }}"
-          description: "${{ parameters.description }}"
-          http_port: "${{ parameters.http_port }}"
-          owner: "${{ parameters.owner }}"
-          destination: "${{ parameters.repoUrl | parseRepoUrl }}"
+          product: '${{ parameters.product }}'
+          component: '${{ parameters.component }}'
+          app_full_name: '${{ parameters.product }}-${{ parameters.component }}'
+          description: '${{ parameters.description }}'
+          http_port: '${{ parameters.http_port }}'
+          owner: '${{ parameters.owner }}'
+          destination: '${{ parameters.repoUrl | parseRepoUrl }}'
           slack_contact_channel: ${{ parameters.slack_contact_channel }}
           github_topics: ${{ parameters.github_topic }}
     - id: publish
@@ -104,8 +104,8 @@ spec:
       name: Register
       action: catalog:register
       input:
-        repoContentsUrl: "${{ steps.publish.output.repoContentsUrl }}"
-        catalogInfoPath: "/catalog-info.yaml"
+        repoContentsUrl: '${{ steps.publish.output.repoContentsUrl }}'
+        catalogInfoPath: '/catalog-info.yaml'
   output:
-    remoteUrl: "${{ steps.publish.output.remoteUrl }}"
-    entityRef: "${{ steps.register.output.entityRef }}"
+    remoteUrl: '${{ steps.publish.output.remoteUrl }}'
+    entityRef: '${{ steps.register.output.entityRef }}'
