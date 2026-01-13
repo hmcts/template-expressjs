@@ -39,7 +39,7 @@
     "@types/require-directory": "2.1.7",
     "applicationinsights": "2.7.0",
     "axios": "1.12.0",
-    "body-parser": "1.20.4",
+    "body-parser": "2.2.2",
     "config": "3.3.12",
     "cookie-parser": "1.4.7",
     "csurf": "1.11.0",
@@ -59,7 +59,7 @@
     "stylelint": "^16.26.1",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-config-standard-scss": "^13.0.0",
-    "superagent": "^10.2.3",
+    "superagent": "10.3.0",
     "ts-node": "10.9.2",
     "tsconfig-paths": "4.2.0",
     "typescript": "5.0.4"
