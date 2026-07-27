@@ -4843,7 +4843,7 @@ __metadata:
     glob: "npm:11.1.0"
     govuk-frontend: "npm:^5.9.0"
     helmet: "npm:6.2.0"
-    html-webpack-plugin: "npm:5.5.1"
+    html-webpack-plugin: "npm:5.6.8"
     husky: "npm:8.0.3"
     jest: "npm:^29.4.0"
     jest-html-reporter: "npm:3.10.2"
@@ -9577,9 +9577,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:5.5.1":
-  version: 5.5.1
-  resolution: "html-webpack-plugin@npm:5.5.1"
+"html-webpack-plugin@npm:5.6.8":
+  version: 5.6.8
+  resolution: "html-webpack-plugin@npm:5.6.8"
   dependencies:
     "@types/html-minifier-terser": "npm:^6.0.0"
     html-minifier-terser: "npm:^6.0.2"
@@ -9587,8 +9587,14 @@ __metadata:
     pretty-error: "npm:^4.0.0"
     tapable: "npm:^2.0.0"
   peerDependencies:
+    "@rspack/core": 0.x || 1.x || 2.x
     webpack: ^5.20.0
-  checksum: 10/e34c90fdbb7b75ae9bc4ee40351ff04eb05efeeba569ba3f3519f89c314e4f259d0f2d18eaf4bc38b959d04c62f874b103b62b07643c12c95b0df96296860d55
+  peerDependenciesMeta:
+    "@rspack/core":
+      optional: true
+    webpack:
+      optional: true
+  checksum: 10/c5b484f7594c155ee2b47b28b291f69ab7948e25f989c8d7e2130bb58b6b5e6724ef4b309e8adcdcb50e4e072bf82bfbbaaa08a35161f2aaa81c01fc58280b68
   languageName: node
   linkType: hard
 
