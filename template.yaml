@@ -89,6 +89,8 @@ spec:
           destination: '${{ parameters.repoUrl | parseRepoUrl }}'
           slack_contact_channel: ${{ parameters.slack_contact_channel }}
           github_topics: ${{ parameters.github_topic }}
+          # labs is the only sandbox product
+          acr_registry: ${{ 'hmctssbox.azurecr.io' if parameters.product == 'labs' else 'hmctsprod.azurecr.io' }}
     - id: publish
       name: Publish
       action: publish:github
