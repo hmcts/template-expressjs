@@ -7,4 +7,4 @@ version: 0.0.8
 dependencies:
   - name: nodejs
     version: 3.2.0
-    repository: 'oci://${{ values.acr_registry }}.azurecr.io/helm'
+    repository: 'oci://${{ values.acr_registry }}/helm'
