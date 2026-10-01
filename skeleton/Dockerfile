@@ -1,5 +1,5 @@
 # ---- Base image ----
-FROM ${{ values.acr_registry }}.azurecr.io/base/node:18-alpine as base
+FROM ${{ values.acr_registry }}/base/node:18-alpine as base
 
 USER root
 RUN corepack enable
